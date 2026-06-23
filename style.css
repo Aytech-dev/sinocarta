@@ -83,31 +83,33 @@ body{
 
 .action-buttons{
     display:flex;
-    gap:16px;
-    margin-top:35px;
+    gap:10px;
+    margin-top:20px;
     width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .action{
     flex: 1;
-    min-width: 140px;
-    height: 72px;
+    min-width: 0;
+    height: 65px;
+
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    padding: 12px 14px;
+    gap: 8px;
+    padding: 10px;
     border-radius: 18px;
     text-decoration: none;
     color: white;
-    white-space: nowrap;
 }
 
 .action i{
-  flex-shrink: 0;
-    width:38px;
-    height:38px;
+    flex-shrink: 0;
+    width:32px;
+    height:32px;
+    font-size: 14px;
     background:white;
     color:black;
     border-radius:50%;
@@ -121,7 +123,7 @@ body{
 }
 .action strong{
     display:block;
-    font-size:14px;
+    font-size:12px;
     line-height: 1.1;
     white-space: nowrap;
 }
@@ -130,7 +132,7 @@ body{
     display: block;
     line-height: 1.2;
     color:#eee;
-    font-size:11px;
+    font-size:9px;
     white-space: nowrap;
 }
 
@@ -302,4 +304,156 @@ body{
 
 a {
     text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px){
+
+    body{
+        padding:20px 10px;
+        zoom:100%;
+    }
+
+    .classic-page{
+        max-width:100%;
+    }
+
+    .profile-ring{
+        width:145px;
+        height:145px;
+    }
+
+    .profile-section h1{
+        font-size:38px;
+        margin-top:22px;
+    }
+
+    .profile-section h2{
+        font-size:18px;
+    }
+
+    .business-name{
+        font-size:14px;
+    }
+
+    .tagline{
+        font-size:14px;
+    }
+
+    .action-buttons{
+        gap:8px;
+    }
+
+    .action{
+        height:58px;
+        padding:8px 6px;
+        border-radius:15px;
+        gap:6px;
+    }
+
+    .action i{
+        width:28px;
+        height:28px;
+        font-size:12px;
+    }
+
+    .action strong{
+        font-size:11px;
+    }
+
+    .action span{
+        font-size:8px;
+    }
+
+    .section-title{
+        margin:35px 0;
+        gap:12px;
+    }
+
+    .section-title p{
+        font-size:12px;
+        letter-spacing:2px;
+    }
+
+    .social-grid{
+        gap:8px;
+    }
+
+    .social-grid a{
+        padding:10px 6px;
+        border-radius:16px;
+    }
+
+    .social-grid i{
+        font-size:24px;
+        margin-bottom:8px;
+    }
+
+    .social-grid p{
+        font-size:11px;
+    }
+
+    .location-card{
+        padding:12px;
+        gap:12px;
+    }
+
+    .location-card i{
+        font-size:30px;
+    }
+
+    .location-card h3{
+        font-size:17px;
+    }
+
+    .location-card p{
+        font-size:12px;
+    }
+
+    .classic-footer{
+        padding:14px;
+        gap:10px;
+    }
+
+    .classic-footer i{
+        width:34px;
+        height:34px;
+        font-size:16px;
+    }
+
+    .footer-info{
+        gap:10px;
+    }
+
+    .footer-info strong{
+        font-size:11px;
+    }
+
+    .footer-info span{
+        font-size:10px;
+    }
+
+    .footer-brand{
+        padding-left:10px;
+    }
+
+    .footer-brand strong{
+        font-size:11px;
+    }
+
+    .footer-brand span{
+        font-size:10px;
+    }
+
+    .fa-crown{
+        left:0;
+    }
 }
