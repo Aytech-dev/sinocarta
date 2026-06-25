@@ -308,13 +308,6 @@ a {
 
 
 
-
-
-
-
-
-
-
 @media (max-width: 480px){
 
     body{
@@ -455,5 +448,320 @@ a {
 
     .fa-crown{
         left:0;
+    }
+}
+
+
+
+
+
+/* ===========================
+   CLASSIC CONNECT TEMPLATE
+=========================== */
+.connect-body{
+    min-height:100vh;
+    background:#f7f8fc;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+    color:#06153d;
+}
+
+.connect-page{
+    max-width:480px;
+    margin:auto;
+    padding:25px 18px 40px;
+    background:#f7f8fc;
+    min-height:100vh;
+}
+
+/* HEADER */
+
+.connect-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:35px;
+}
+
+.connect-logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.connect-logo img{
+    width:55px;
+}
+
+.connect-logo span{
+    font-size:28px;
+    font-weight:700;
+    color:#06153d;
+    line-height: 1;
+}
+
+.save-contact-btn{
+    background:#4285ff;
+    color:white;
+    text-decoration:none;
+    padding:14px 20px;
+    border-radius:16px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:16px;
+    font-weight:600;
+    box-shadow:0 10px 20px rgba(66,133,255,.25);
+}
+
+/* PROFILE */
+
+.connect-profile{
+    text-align:center;
+}
+
+.connect-profile-img{
+    width:190px;
+    height:190px;
+    margin:auto;
+    border-radius:50%;
+    overflow:hidden;
+    border:6px solid #d9e4ff;
+}
+
+.connect-profile-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.connect-profile h1{
+    margin-top:8px;
+    color:#06153d;
+    font-size:50px;
+    font-weight:700;
+}
+
+.connect-profile h2{
+    color:#4285ff;
+    font-size:24px;
+    margin-top:6px;
+}
+
+.connect-profile p{
+    color:#707070;
+    font-size:20px;
+    margin-top:7px;
+}
+
+/* ACTION BUTTONS */
+
+.connect-actions{
+    margin-top:45px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.connect-actions a{
+    text-decoration:none;
+    text-align:center;
+}
+
+.connect-actions i{
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:28px;
+    margin:auto;
+}
+
+.connect-actions span{
+    display:block;
+    margin-top:12px;
+    color:#444;
+    font-size:18px;
+}
+
+.connect-actions .fa-phone{
+    background:#2ecc71;
+}
+
+.connect-actions .fa-whatsapp{
+    background:#22c55e;
+}
+
+.connect-actions .fa-envelope{
+    background:#8b5cf6;
+}
+
+.connect-actions .fa-globe{
+    background:#4285ff;
+}
+
+/* SECTION TITLE */
+
+.connect-section{
+    margin-top:40px;
+}
+
+.connect-title{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.connect-title span{
+    flex:1;
+    height:1px;
+    background:#d7d7d7;
+}
+
+.connect-title p{
+    color:#7b8195;
+    font-size:18px;
+    font-weight:700;
+    letter-spacing:1px;
+}
+
+/* SOCIAL LIST */
+
+.connect-list{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.connect-list a{
+    background:white;
+    padding:22px;
+    border-radius:20px;
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    gap:18px;
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
+}
+
+.connect-list a div{
+    flex:1;
+}
+
+.connect-list strong{
+    display:block;
+    color:#06153d;
+    font-size:20px;
+}
+
+.connect-list small{
+    color:#808080;
+    font-size:15px;
+    display: block;
+    position: relative;
+    top:5px;
+}
+
+.arrow{
+    color:#a1a1a1;
+}
+
+.facebook-icon{
+    color:#1877f2;
+    font-size:34px;
+}
+
+.instagram-icon{
+    color:#e1306c;
+    font-size:34px;
+}
+
+.tiktok-icon{
+    color:black;
+    font-size:34px;
+}
+
+.website-icon{
+    color:#4285ff;
+    font-size:34px;
+}
+
+/* ABOUT */
+
+.connect-about{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
+}
+
+.connect-about i{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:#dbe7ff;
+    color:#4285ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+}
+
+.connect-about p{
+    color:#444;
+    font-size:18px;
+    line-height:1.5;
+}
+
+/* FOOTER */
+
+.connect-footer{
+    margin-top:50px;
+    text-align:center;
+    color:#777;
+    font-size:18px;
+}
+
+.connect-footer strong{
+    color:#4285ff;
+}
+
+/* MOBILE */
+
+@media(max-width:480px){
+
+    .connect-profile h1{
+        font-size:42px;
+    }
+
+    .connect-actions{
+        gap:12px;
+    }
+
+    .connect-actions i{
+        width:55px;
+        height:55px;
+        font-size:22px;
+    }
+
+    .connect-actions span{
+        font-size:14px;
+    }
+
+    .save-contact-btn{
+        padding:12px 16px;
+        font-size:14px;
+    }
+
+    .connect-logo span{
+        font-size:22px;
     }
 }
