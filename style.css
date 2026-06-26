@@ -1,9 +1,28 @@
+/* ===========================
+   CLASSIC 01 TEMPLATE
+   Dark Navy / Gold Design
+=========================== */
+
+
+/* ===========================
+   GLOBAL RESET
+=========================== */
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial,sans-serif;
+    font-family:'Poppins', Arial, sans-serif;
 }
+
+a{
+    text-decoration:none;
+}
+
+
+/* ===========================
+   PAGE BACKGROUND
+=========================== */
 
 body{
     min-height:100vh;
@@ -22,9 +41,13 @@ body{
 .classic-page{
     width:100%;
     max-width:460px;
-    margin :auto;
+    margin:auto;
 }
 
+
+/* ===========================
+   PROFILE SECTION
+=========================== */
 
 .profile-section{
     text-align:center;
@@ -48,21 +71,24 @@ body{
 }
 
 .profile-section h1{
-    font-size:48px;
-    margin-top:30px;
+    font-size:40px;
+    margin-top:28px;
     font-weight:700;
+    line-height:1.15;
 }
 
 .profile-section h2{
     color:#f5b932;
-    font-size:22px;
-    margin-top:10px;
+    font-size:18px;
+    margin-top:9px;
+    font-weight:600;
 }
 
 .business-name{
-    font-size:16px;
-    margin-top:15px;
+    font-size:14px;
+    margin-top:12px;
     color:#d4d4d4;
+    font-weight:400;
 }
 
 .gold-line{
@@ -70,46 +96,51 @@ body{
     height:5px;
     background:#f5b932;
     border-radius:30px;
-    margin:25px auto;
+    margin:24px auto;
 }
 
 .tagline{
-    font-size:16px;
+    font-size:14px;
     max-width:280px;
     margin:auto;
     line-height:1.6;
     color:#ddd;
+    font-weight:400;
 }
+
+
+/* ===========================
+   ACTION BUTTONS
+=========================== */
 
 .action-buttons{
     display:flex;
     gap:10px;
     margin-top:20px;
-    width: 100%;
-    box-sizing: border-box;
-    overflow: hidden;
+    width:100%;
+    box-sizing:border-box;
+    overflow:hidden;
 }
 
 .action{
-    flex: 1;
-    min-width: 0;
-    height: 65px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    padding: 10px;
-    border-radius: 18px;
-    text-decoration: none;
-    color: white;
+    flex:1;
+    min-width:0;
+    height:65px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:8px;
+    padding:10px;
+    border-radius:18px;
+    text-decoration:none;
+    color:white;
 }
 
 .action i{
-    flex-shrink: 0;
+    flex-shrink:0;
     width:32px;
     height:32px;
-    font-size: 14px;
+    font-size:14px;
     background:white;
     color:black;
     border-radius:50%;
@@ -119,25 +150,28 @@ body{
 }
 
 .action div{
-  min-width: 0;
-}
-.action strong{
-    display:block;
-    font-size:12px;
-    line-height: 1.1;
-    white-space: nowrap;
-}
-
-.action span{
-    display: block;
-    line-height: 1.2;
-    color:#eee;
-    font-size:9px;
-    white-space: nowrap;
+    min-width:0;
 }
 
 .action-text{
-  text-align: left;
+    text-align:left;
+}
+
+.action strong{
+    display:block;
+    font-size:12px;
+    line-height:1.1;
+    white-space:nowrap;
+    font-weight:600;
+}
+
+.action span{
+    display:block;
+    line-height:1.2;
+    color:#eee;
+    font-size:9px;
+    white-space:nowrap;
+    font-weight:400;
 }
 
 .whatsapp{
@@ -152,10 +186,15 @@ body{
     background:#d8a51f;
 }
 
+
+/* ===========================
+   SECTION TITLE
+=========================== */
+
 .section-title{
     display:flex;
     align-items:center;
-    margin:45px 0;
+    margin:42px 0;
     gap:20px;
 }
 
@@ -168,7 +207,14 @@ body{
 .section-title p{
     color:#d8a51f;
     letter-spacing:3px;
+    font-size:12px;
+    font-weight:600;
 }
+
+
+/* ===========================
+   SOCIAL GRID
+=========================== */
 
 .social-grid{
     display:grid;
@@ -177,29 +223,39 @@ body{
 }
 
 .social-grid a{
-    min-width: 0;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    padding: 12px;
-    text-decoration: none;
-    color: white;
+    min-width:0;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:8px;
+    padding:12px;
+    text-decoration:none;
+    color:white;
     background:rgba(255,255,255,.05);
     border:1px solid rgba(255,255,255,.1);
     border-radius:20px;
 }
 
 .social-grid i{
-    font-size:32px;
-    margin-bottom:15px;
+    font-size:30px;
+    margin-bottom:12px;
 }
+
+.social-grid p{
+    font-size:12px;
+    font-weight:500;
+}
+
+
+/* ===========================
+   LOCATION CARD
+=========================== */
 
 .location-card{
     margin-top:25px;
-    padding:12px 14px;
+    padding:13px 14px;
     border-radius:25px;
     background:rgba(255,255,255,.05);
     display:flex;
@@ -209,20 +265,27 @@ body{
 
 .location-card i{
     color:#f5b932;
-    font-size:45px;
+    font-size:40px;
 }
 
 .location-card h3{
-    font-size:28px;
+    font-size:22px;
+    font-weight:600;
 }
 
 .location-card p{
     color:#ccc;
+    font-size:13px;
 }
 
 .location-description{
-  margin-top:8px;
+    margin-top:6px;
 }
+
+
+/* ===========================
+   FOOTER
+=========================== */
 
 .classic-footer{
     margin-top:30px;
@@ -230,7 +293,6 @@ body{
     border-radius:25px;
     background:rgba(255,255,255,.05);
     border:1px solid rgba(255,255,255,.08);
-
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -252,18 +314,17 @@ body{
     background:rgba(245,185,50,.15);
     color:#f5b932;
     border-radius:50%;
-
     display:flex;
     justify-content:center;
     align-items:center;
-    font-size:22px;
+    font-size:20px;
     flex-shrink:0;
 }
 
 .footer-info strong{
     display:block;
     color:#ffffff;
-    font-size:15px;
+    font-size:14px;
     font-weight:600;
     line-height:1.3;
 }
@@ -271,8 +332,9 @@ body{
 .footer-info span{
     display:block;
     color:#cfcfcf;
-    font-size:13px;
+    font-size:12px;
     margin-top:4px;
+    font-weight:400;
 }
 
 .footer-brand{
@@ -285,7 +347,7 @@ body{
 .footer-brand strong{
     display:block;
     color:#f5b932;
-    font-size:15px;
+    font-size:14px;
     font-weight:700;
     letter-spacing:1px;
 }
@@ -293,22 +355,21 @@ body{
 .footer-brand span{
     display:block;
     color:#cfcfcf;
-    font-size:13px;
+    font-size:12px;
     margin-top:4px;
 }
 
 .fa-crown{
     position:relative;
-    left: -8px;
-}
-
-a {
-    text-decoration: none;
+    left:-8px;
 }
 
 
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
 
-@media (max-width: 480px){
+@media (max-width:480px){
 
     body{
         padding:20px 10px;
@@ -325,20 +386,20 @@ a {
     }
 
     .profile-section h1{
-        font-size:38px;
+        font-size:34px;
         margin-top:22px;
     }
 
     .profile-section h2{
-        font-size:18px;
+        font-size:16px;
     }
 
     .business-name{
-        font-size:14px;
+        font-size:13px;
     }
 
     .tagline{
-        font-size:14px;
+        font-size:13px;
     }
 
     .action-buttons{
@@ -372,7 +433,7 @@ a {
     }
 
     .section-title p{
-        font-size:12px;
+        font-size:11px;
         letter-spacing:2px;
     }
 
@@ -450,6 +511,9 @@ a {
         left:0;
     }
 }
+
+
+
 
 
 
