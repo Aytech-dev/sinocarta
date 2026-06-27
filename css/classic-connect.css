@@ -1,0 +1,4145 @@
+/* ===========================
+   PAGE BACKGROUND
+=========================== */
+
+.classic-body{
+    min-height:100vh;
+    background:#010b22;
+    background:
+    radial-gradient(circle at top left,#1d2e68 0%,transparent 40%),
+    radial-gradient(circle at bottom right,#0c1f53 0%,transparent 35%),
+    #010b22;
+    color:white;
+    display:flex;
+    justify-content:center;
+    padding:30px 15px;
+    zoom:85%;
+}
+
+.classic-page{
+    width:100%;
+    max-width:460px;
+    margin:auto;
+}
+
+
+/* ===========================
+   PROFILE SECTION
+=========================== */
+
+.profile-section{
+    text-align:center;
+    margin-top:30px;
+}
+
+.profile-ring{
+    width:170px;
+    height:170px;
+    margin:auto;
+    border:6px solid #f5b932;
+    border-radius:50%;
+    overflow:hidden;
+    box-shadow:0 0 25px rgba(245,185,50,.5);
+}
+
+.profile-ring img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.profile-section h1{
+    font-size:40px;
+    margin-top:28px;
+    font-weight:700;
+    line-height:1.15;
+}
+
+.profile-section h2{
+    color:#f5b932;
+    font-size:18px;
+    margin-top:9px;
+    font-weight:600;
+}
+
+.business-name{
+    font-size:14px;
+    margin-top:12px;
+    color:#d4d4d4;
+    font-weight:400;
+}
+
+.gold-line{
+    width:70px;
+    height:5px;
+    background:#f5b932;
+    border-radius:30px;
+    margin:24px auto;
+}
+
+.tagline{
+    font-size:14px;
+    max-width:280px;
+    margin:auto;
+    line-height:1.6;
+    color:#ddd;
+    font-weight:400;
+}
+
+
+/* ===========================
+   ACTION BUTTONS
+=========================== */
+
+.action-buttons{
+    display:flex;
+    gap:10px;
+    margin-top:20px;
+    width:100%;
+    box-sizing:border-box;
+    overflow:hidden;
+}
+
+.action{
+    flex:1;
+    min-width:0;
+    height:65px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:8px;
+    padding:10px;
+    border-radius:18px;
+    text-decoration:none;
+    color:white;
+}
+
+.action i{
+    flex-shrink:0;
+    width:32px;
+    height:32px;
+    font-size:14px;
+    background:white;
+    color:black;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.action div{
+    min-width:0;
+}
+
+.action-text{
+    text-align:left;
+}
+
+.action strong{
+    display:block;
+    font-size:12px;
+    line-height:1.1;
+    white-space:nowrap;
+    font-weight:600;
+}
+
+.action span{
+    display:block;
+    line-height:1.2;
+    color:#eee;
+    font-size:9px;
+    white-space:nowrap;
+    font-weight:400;
+}
+
+.whatsapp{
+    background:#0ca84a;
+}
+
+.call{
+    background:#062f7d;
+}
+
+.email{
+    background:#d8a51f;
+}
+
+
+/* ===========================
+   SECTION TITLE
+=========================== */
+
+.section-title{
+    display:flex;
+    align-items:center;
+    margin:42px 0;
+    gap:20px;
+}
+
+.section-title span{
+    flex:1;
+    height:1px;
+    background:#d8a51f;
+}
+
+.section-title p{
+    color:#d8a51f;
+    letter-spacing:3px;
+    font-size:12px;
+    font-weight:600;
+}
+
+
+/* ===========================
+   SOCIAL GRID
+=========================== */
+
+.social-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:12px;
+}
+
+.social-grid a{
+    min-width:0;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:8px;
+    padding:12px;
+    text-decoration:none;
+    color:white;
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.1);
+    border-radius:20px;
+}
+
+.social-grid i{
+    font-size:30px;
+    margin-bottom:12px;
+}
+
+.social-grid p{
+    font-size:12px;
+    font-weight:500;
+}
+
+
+/* ===========================
+   LOCATION CARD
+=========================== */
+
+.location-card{
+    margin-top:25px;
+    padding:13px 14px;
+    border-radius:25px;
+    background:rgba(255,255,255,.05);
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.location-card i{
+    color:#f5b932;
+    font-size:40px;
+}
+
+.location-card h3{
+    font-size:22px;
+    font-weight:600;
+}
+
+.location-card p{
+    color:#ccc;
+    font-size:13px;
+}
+
+.location-description{
+    margin-top:6px;
+}
+
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.classic-footer{
+    margin-top:30px;
+    padding:18px 18px;
+    border-radius:25px;
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.08);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+    flex-wrap:nowrap;
+    backdrop-filter:blur(10px);
+}
+
+.footer-info{
+    flex:1;
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.classic-footer i{
+    width:42px;
+    height:42px;
+    background:rgba(245,185,50,.15);
+    color:#f5b932;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+    flex-shrink:0;
+}
+
+.footer-info strong{
+    display:block;
+    color:#ffffff;
+    font-size:14px;
+    font-weight:600;
+    line-height:1.3;
+}
+
+.footer-info span{
+    display:block;
+    color:#cfcfcf;
+    font-size:12px;
+    margin-top:4px;
+    font-weight:400;
+}
+
+.footer-brand{
+    border-left:1px solid rgba(255,255,255,.12);
+    padding-left:20px;
+    text-align:left;
+    flex-shrink:0;
+}
+
+.footer-brand strong{
+    display:block;
+    color:#f5b932;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:1px;
+}
+
+.footer-brand span{
+    display:block;
+    color:#cfcfcf;
+    font-size:12px;
+    margin-top:4px;
+}
+
+.fa-crown{
+    position:relative;
+    left:-8px;
+}
+
+
+
+
+
+
+
+
+
+/* ===========================
+   CLASSIC CONNECT 01 TEMPLATE
+   Light Professional Design
+=========================== */
+
+
+/* ===========================
+   PAGE BODY
+=========================== */
+
+.connect-body{
+    min-height:100vh;
+    background:#f7f8fc;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+    color:#06153d;
+    font-family:'Poppins', Arial, sans-serif;
+}
+
+
+/* ===========================
+   MAIN PAGE WRAPPER
+=========================== */
+
+.connect-page{
+    width:100%;
+    max-width:480px;
+    margin:auto;
+    padding:25px 18px 40px;
+    background:#f7f8fc;
+    min-height:100vh;
+}
+
+
+/* ===========================
+   HEADER
+=========================== */
+
+.connect-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:35px;
+}
+
+.connect-logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.connect-logo img{
+    width:50px;
+}
+
+.connect-logo span{
+    font-size:22px;
+    font-weight:700;
+    color:#06153d;
+    line-height:1;
+}
+
+.save-contact-btn{
+    background:#4285ff;
+    color:white;
+    text-decoration:none;
+    padding:12px 16px;
+    border-radius:16px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size:13px;
+    font-weight:600;
+    box-shadow:0 10px 20px rgba(66,133,255,.25);
+}
+
+
+/* ===========================
+   PROFILE SECTION
+=========================== */
+
+.connect-profile{
+    text-align:center;
+}
+
+.connect-profile-img{
+    width:175px;
+    height:175px;
+    margin:auto;
+    border-radius:50%;
+    overflow:hidden;
+    border:6px solid #d9e4ff;
+}
+
+.connect-profile-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.connect-profile h1{
+    margin-top:14px;
+    color:#06153d;
+    font-size:40px;
+    font-weight:700;
+    line-height:1.15;
+}
+
+.connect-profile h2{
+    color:#4285ff;
+    font-size:18px;
+    margin-top:6px;
+    font-weight:600;
+}
+
+.connect-profile p{
+    color:#707070;
+    font-size:14px;
+    margin-top:7px;
+    font-weight:400;
+}
+
+
+/* ===========================
+   QUICK ACTION BUTTONS
+=========================== */
+
+.connect-actions{
+    margin-top:38px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:16px;
+}
+
+.connect-actions a{
+    text-decoration:none;
+    text-align:center;
+}
+
+.connect-actions i{
+    width:58px;
+    height:58px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:23px;
+    margin:auto;
+}
+
+.connect-actions span{
+    display:block;
+    margin-top:10px;
+    color:#444;
+    font-size:13px;
+    font-weight:500;
+}
+
+.connect-actions .fa-phone{
+    background:#2ecc71;
+}
+
+.connect-actions .fa-whatsapp{
+    background:#22c55e;
+}
+
+.connect-actions .fa-envelope{
+    background:#8b5cf6;
+}
+
+.connect-actions .fa-globe{
+    background:#4285ff;
+}
+
+
+/* ===========================
+   SECTION TITLE
+=========================== */
+
+.connect-section{
+    margin-top:40px;
+}
+
+.connect-title{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.connect-title span{
+    flex:1;
+    height:1px;
+    background:#d7d7d7;
+}
+
+.connect-title p{
+    color:#7b8195;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:1px;
+}
+
+
+/* ===========================
+   SOCIAL LINKS LIST
+=========================== */
+
+.connect-list{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.connect-list a{
+    background:white;
+    padding:18px;
+    border-radius:20px;
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    gap:16px;
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
+}
+
+.connect-list a div{
+    flex:1;
+}
+
+.connect-list strong{
+    display:block;
+    color:#06153d;
+    font-size:16px;
+    font-weight:600;
+}
+
+.connect-list small{
+    color:#808080;
+    font-size:12px;
+    display:block;
+    position:relative;
+    top:4px;
+}
+
+.arrow{
+    color:#a1a1a1;
+    font-size:13px;
+}
+
+.facebook-icon{
+    color:#1877f2;
+    font-size:30px;
+}
+
+.instagram-icon{
+    color:#e1306c;
+    font-size:30px;
+}
+
+.tiktok-icon{
+    color:black;
+    font-size:30px;
+}
+
+.website-icon{
+    color:#4285ff;
+    font-size:30px;
+}
+
+
+/* ===========================
+   ABOUT SECTION
+=========================== */
+
+.connect-about{
+    background:white;
+    padding:22px;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    gap:18px;
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
+}
+
+.connect-about i{
+    width:52px;
+    height:52px;
+    border-radius:50%;
+    background:#dbe7ff;
+    color:#4285ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:21px;
+    flex-shrink:0;
+}
+
+.connect-about p{
+    color:#444;
+    font-size:14px;
+    line-height:1.5;
+    font-weight:400;
+}
+
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.connect-footer{
+    margin-top:50px;
+    text-align:center;
+    color:#777;
+    font-size:14px;
+}
+
+.connect-footer strong{
+    color:#4285ff;
+    font-weight:700;
+}
+
+
+
+
+
+
+
+
+
+/* ===========================
+   CLASSIC CONNECT 02 TEMPLATE
+=========================== */
+
+.connect-02-body{
+    min-height:100vh;
+    background:#f5f5f3;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+    color:#111827;
+    font-family:'Poppins', sans-serif;
+}
+
+.connect-02-page{
+    width:100%;
+    max-width:430px;
+    min-height:100vh;
+    background:#f8f8f6;
+    padding:28px 18px 35px;
+}
+
+/* HEADER */
+
+.connect-02-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:35px;
+}
+
+.connect-02-logo{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+.connect-02-logo img{
+    width:32px;
+}
+
+.connect-02-logo span{
+    font-size:14px;
+    font-weight:700;
+    color:#111827;
+    letter-spacing:.5px;
+}
+
+.connect-02-menu{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:1px solid #ddd;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#111827;
+    font-size:16px;
+}
+
+/* PROFILE */
+
+.connect-02-profile{
+    text-align:center;
+}
+
+.connect-02-img{
+    width:125px;
+    height:125px;
+    border-radius:50%;
+    overflow:hidden;
+    margin:auto;
+    background:#ddd;
+}
+
+.connect-02-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+}
+
+.connect-02-profile h1{
+    margin-top:22px;
+    font-size:30px;
+    font-weight:700;
+    color:#111827;
+}
+
+.connect-02-profile h2{
+    margin-top:6px;
+    font-size:16px;
+    font-weight:500;
+    color:#111827;
+}
+
+.connect-02-profile p{
+    margin-top:6px;
+    font-size:14px;
+    color:#333;
+}
+
+.connect-02-profile::after{
+    content:"";
+    display:block;
+    width:35px;
+    height:2px;
+    background:#6b7280;
+    margin:18px auto 0;
+}
+
+/* CONTACT LIST */
+
+.connect-02-list{
+    margin-top:28px;
+    display:flex;
+    flex-direction:column;
+    gap:13px;
+}
+
+.connect-02-list a{
+    background:white;
+    border-radius:14px;
+    padding:14px 15px;
+    display:flex;
+    align-items:center;
+    gap:14px;
+    text-decoration:none;
+    color:#111827;
+    box-shadow:0 8px 20px rgba(0,0,0,.07);
+    border:1px solid rgba(0,0,0,.04);
+}
+
+.connect-02-icon{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:17px;
+    flex-shrink:0;
+}
+
+.connect-02-icon.phone{
+    background:#102033;
+}
+
+.connect-02-icon.whatsapp{
+    background:#25d366;
+}
+
+.connect-02-icon.email{
+    background:#2f80ed;
+}
+
+.connect-02-icon.save{
+    background:#102033;
+}
+
+.connect-02-list a div:nth-child(2){
+    flex:1;
+}
+
+.connect-02-list strong{
+    display:block;
+    font-size:16px;
+    font-weight:600;
+    color:#111827;
+}
+
+.connect-02-list span{
+    display:block;
+    font-size:12px;
+    color:#555;
+    margin-top:2px;
+}
+
+.connect-02-list .arrow{
+    color:#777;
+    font-size:14px;
+}
+
+/* SOCIAL SECTION */
+
+.connect-02-social-section{
+    margin-top:28px;
+}
+
+.connect-02-title{
+    display:flex;
+    align-items:center;
+    gap:13px;
+    margin-bottom:18px;
+}
+
+.connect-02-title span{
+    flex:1;
+    height:1px;
+    background:#ddd;
+}
+
+.connect-02-title p{
+    font-size:15px;
+    color:#111827;
+    font-weight:500;
+}
+
+.connect-02-socials{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:14px;
+}
+
+.connect-02-socials a{
+    height:58px;
+    border-radius:14px;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    color:#111827;
+    font-size:24px;
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+    border:1px solid rgba(0,0,0,.04);
+}
+
+.connect-02-socials .fa-instagram{
+    color:#e1306c;
+}
+
+.connect-02-socials .fa-tiktok{
+    color:#111827;
+}
+
+.connect-02-socials .fa-facebook-f{
+    color:#1877f2;
+}
+
+.connect-02-socials .fa-globe{
+    color:#111827;
+}
+
+/* FOOTER */
+
+.connect-02-footer{
+    margin-top:40px;
+    text-align:center;
+    color:#777;
+}
+
+.connect-02-footer img{
+    width:34px;
+    margin-bottom:8px;
+}
+
+.connect-02-footer p{
+    font-size:13px;
+    color:#555;
+    margin-bottom:3px;
+}
+
+.connect-02-footer span{
+    font-size:12px;
+    color:#777;
+}
+
+
+
+
+
+
+
+
+
+/* ===========================
+   CLASSIC CONNECT 03 TEMPLATE
+=========================== */
+
+.connect-03-body{
+    min-height:100vh;
+    background:#050816;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+    color:white;
+    font-family:'Poppins', sans-serif;
+}
+
+.connect-03-page{
+    width:100%;
+    max-width:430px;
+    min-height:100vh;
+    padding:26px 18px 35px;
+    background:
+        radial-gradient(circle at top right, rgba(66,133,255,.25), transparent 35%),
+        radial-gradient(circle at bottom left, rgba(212,175,55,.18), transparent 35%),
+        #050816;
+}
+
+/* HEADER */
+
+.connect-03-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:34px;
+}
+
+.connect-03-logo{
+    display:flex;
+    align-items:center;
+    gap:9px;
+}
+
+.connect-03-logo img{
+    width:36px;
+}
+
+.connect-03-logo span{
+    font-size:15px;
+    font-weight:700;
+    color:white;
+    letter-spacing:.5px;
+}
+
+.connect-03-save{
+    background:linear-gradient(135deg,#d4af37,#f5d76e);
+    color:#111827;
+    text-decoration:none;
+    padding:10px 16px;
+    border-radius:30px;
+    font-size:13px;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    box-shadow:0 10px 25px rgba(212,175,55,.25);
+}
+
+/* PROFILE */
+
+.connect-03-profile{
+    text-align:center;
+    padding:26px 18px;
+    border-radius:28px;
+    background:rgba(255,255,255,.06);
+    border:1px solid rgba(255,255,255,.12);
+    box-shadow:0 20px 45px rgba(0,0,0,.25);
+    backdrop-filter:blur(12px);
+}
+
+.connect-03-img{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    overflow:hidden;
+    margin:auto;
+    border:4px solid #d4af37;
+    box-shadow:0 0 30px rgba(212,175,55,.25);
+}
+
+.connect-03-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+}
+
+.connect-03-profile h1{
+    margin-top:20px;
+    font-size:30px;
+    font-weight:700;
+    color:white;
+}
+
+.connect-03-profile h2{
+    margin-top:7px;
+    font-size:16px;
+    font-weight:500;
+    color:#d4af37;
+}
+
+.connect-03-profile p{
+    margin-top:6px;
+    font-size:14px;
+    color:#cbd5e1;
+}
+
+/* QUICK ACTIONS */
+
+.connect-03-actions{
+    margin-top:24px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:12px;
+}
+
+.connect-03-actions a{
+    text-decoration:none;
+    text-align:center;
+    color:white;
+    padding:14px 6px;
+    border-radius:18px;
+    background:rgba(255,255,255,.07);
+    border:1px solid rgba(255,255,255,.1);
+}
+
+.connect-03-actions i{
+    font-size:22px;
+    color:#d4af37;
+}
+
+.connect-03-actions span{
+    display:block;
+    margin-top:9px;
+    font-size:12px;
+    color:#e5e7eb;
+}
+
+/* ABOUT CARD */
+
+.connect-03-card{
+    margin-top:24px;
+    padding:22px;
+    border-radius:22px;
+    background:rgba(255,255,255,.07);
+    border:1px solid rgba(255,255,255,.1);
+    box-shadow:0 15px 35px rgba(0,0,0,.22);
+}
+
+.connect-03-card h3{
+    font-size:18px;
+    color:#d4af37;
+    margin-bottom:9px;
+}
+
+.connect-03-card p{
+    font-size:14px;
+    line-height:1.6;
+    color:#d1d5db;
+}
+
+/* LINKS */
+
+.connect-03-links{
+    margin-top:24px;
+    display:flex;
+    flex-direction:column;
+    gap:13px;
+}
+
+.connect-03-links a{
+    text-decoration:none;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:16px 18px;
+    border-radius:18px;
+    background:rgba(255,255,255,.07);
+    border:1px solid rgba(255,255,255,.1);
+    box-shadow:0 10px 25px rgba(0,0,0,.18);
+}
+
+.connect-03-links a div{
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+
+.connect-03-links a div i{
+    width:38px;
+    height:38px;
+    border-radius:50%;
+    background:rgba(212,175,55,.15);
+    color:#d4af37;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:17px;
+}
+
+.connect-03-links span{
+    font-size:15px;
+    font-weight:500;
+    color:#f3f4f6;
+}
+
+.connect-03-links .fa-arrow-right{
+    font-size:13px;
+    color:#d4af37;
+}
+
+/* FOOTER */
+
+.connect-03-footer{
+    margin-top:35px;
+    text-align:center;
+}
+
+.connect-03-footer p{
+    font-size:13px;
+    color:#cbd5e1;
+}
+
+.connect-03-footer strong{
+    color:#d4af37;
+}
+
+.connect-03-footer span{
+    display:block;
+    margin-top:5px;
+    font-size:12px;
+    color:#9ca3af;
+}
+
+
+
+
+
+
+
+
+
+/* ===========================
+   CLASSIC CONNECT 04 TEMPLATE
+=========================== */
+
+.connect-04-body{
+    min-height:100vh;
+    background:#f4efff;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+    color:#241233;
+    font-family:'Poppins', sans-serif;
+}
+
+.connect-04-page{
+    width:100%;
+    max-width:430px;
+    min-height:100vh;
+    padding:26px 18px 35px;
+    background:
+        radial-gradient(circle at top right, rgba(139,92,246,.25), transparent 35%),
+        radial-gradient(circle at bottom left, rgba(236,72,153,.18), transparent 35%),
+        #f4efff;
+}
+
+/* HEADER */
+
+.connect-04-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.connect-04-logo{
+    display:flex;
+    align-items:center;
+    gap:9px;
+}
+
+.connect-04-logo img{
+    width:36px;
+}
+
+.connect-04-logo span{
+    font-size:15px;
+    font-weight:700;
+    color:#241233;
+}
+
+.connect-04-save{
+    background:linear-gradient(135deg,#7c3aed,#ec4899);
+    color:white;
+    text-decoration:none;
+    padding:11px 15px;
+    border-radius:30px;
+    font-size:12px;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    gap:7px;
+    box-shadow:0 12px 25px rgba(124,58,237,.25);
+}
+
+/* PROFILE CARD */
+
+.connect-04-profile-card{
+    text-align:center;
+    padding:30px 20px;
+    border-radius:30px;
+    background:white;
+    box-shadow:0 18px 40px rgba(80,40,130,.13);
+    border:1px solid rgba(124,58,237,.08);
+}
+
+.connect-04-img{
+    width:128px;
+    height:128px;
+    border-radius:50%;
+    overflow:hidden;
+    margin:auto;
+    border:5px solid #eadcff;
+    box-shadow:0 0 0 8px rgba(124,58,237,.08);
+}
+
+.connect-04-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+}
+
+.connect-04-profile-card h1{
+    margin-top:22px;
+    font-size:30px;
+    font-weight:700;
+    color:#241233;
+}
+
+.connect-04-profile-card h2{
+    margin-top:7px;
+    font-size:16px;
+    font-weight:600;
+    color:#7c3aed;
+}
+
+.connect-04-profile-card p{
+    margin-top:6px;
+    font-size:14px;
+    color:#6b5b75;
+}
+
+.connect-04-mini-text{
+    margin:18px auto 0;
+    max-width:300px;
+    background:#f7f1ff;
+    color:#6d28d9;
+    padding:12px 15px;
+    border-radius:18px;
+    font-size:13px;
+    line-height:1.5;
+}
+
+/* QUICK BUTTONS */
+
+.connect-04-actions{
+    margin-top:22px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:12px;
+}
+
+.connect-04-actions a{
+    background:white;
+    text-decoration:none;
+    text-align:center;
+    padding:15px 6px;
+    border-radius:20px;
+    color:#241233;
+    box-shadow:0 12px 28px rgba(80,40,130,.10);
+    border:1px solid rgba(124,58,237,.07);
+}
+
+.connect-04-actions i{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    color:white;
+    font-size:18px;
+    background:linear-gradient(135deg,#7c3aed,#ec4899);
+}
+
+.connect-04-actions span{
+    display:block;
+    margin-top:9px;
+    font-size:11px;
+    font-weight:600;
+    color:#4b3657;
+}
+
+/* SOCIAL LINKS */
+
+.connect-04-section{
+    margin-top:26px;
+}
+
+.connect-04-section h3,
+.connect-04-about h3{
+    font-size:18px;
+    color:#241233;
+    margin-bottom:15px;
+}
+
+.connect-04-links{
+    display:flex;
+    flex-direction:column;
+    gap:13px;
+}
+
+.connect-04-links a{
+    background:white;
+    border-radius:20px;
+    padding:16px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    text-decoration:none;
+    color:#241233;
+    box-shadow:0 12px 28px rgba(80,40,130,.10);
+    border:1px solid rgba(124,58,237,.07);
+}
+
+.connect-04-link-left{
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+
+.connect-04-link-left > i{
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:19px;
+    background:#f4efff;
+}
+
+.connect-04-link-left strong{
+    display:block;
+    font-size:15px;
+    color:#241233;
+}
+
+.connect-04-link-left span{
+    display:block;
+    margin-top:3px;
+    font-size:12px;
+    color:#7a6b85;
+}
+
+.connect-04-links .fa-chevron-right{
+    color:#9b8aaa;
+    font-size:13px;
+}
+
+.connect-04-link-left .instagram{
+    color:#e1306c;
+}
+
+.connect-04-link-left .tiktok{
+    color:#111827;
+}
+
+.connect-04-link-left .facebook{
+    color:#1877f2;
+}
+
+/* ABOUT */
+
+.connect-04-about{
+    margin-top:26px;
+    background:white;
+    border-radius:22px;
+    padding:20px;
+    box-shadow:0 12px 28px rgba(80,40,130,.10);
+    border:1px solid rgba(124,58,237,.07);
+}
+
+.connect-04-about p{
+    font-size:14px;
+    line-height:1.6;
+    color:#6b5b75;
+}
+
+/* FOOTER */
+
+.connect-04-footer{
+    margin-top:35px;
+    text-align:center;
+}
+
+.connect-04-footer p{
+    font-size:13px;
+    color:#6b5b75;
+}
+
+.connect-04-footer strong{
+    color:#7c3aed;
+}
+
+.connect-04-footer span{
+    display:block;
+    margin-top:5px;
+    font-size:12px;
+    color:#8b7a96;
+}
+
+
+
+
+
+
+
+
+
+/* ===========================
+   CLASSIC CONNECT 05 TEMPLATE
+=========================== */
+
+.connect-05-body{
+    min-height:100vh;
+    background:#031712;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+    color:white;
+    font-family:'Poppins', sans-serif;
+}
+
+.connect-05-page{
+    width:100%;
+    max-width:430px;
+    min-height:100vh;
+    padding:26px 18px 35px;
+    background:
+        radial-gradient(circle at top left, rgba(16,185,129,.28), transparent 38%),
+        radial-gradient(circle at bottom right, rgba(212,175,55,.18), transparent 35%),
+        #031712;
+}
+
+/* HEADER */
+
+.connect-05-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.connect-05-logo{
+    display:flex;
+    align-items:center;
+    gap:9px;
+}
+
+.connect-05-logo img{
+    width:36px;
+}
+
+.connect-05-logo span{
+    font-size:15px;
+    font-weight:700;
+    color:white;
+}
+
+.connect-05-save{
+    background:#10b981;
+    color:white;
+    text-decoration:none;
+    padding:11px 15px;
+    border-radius:30px;
+    font-size:12px;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    gap:7px;
+    box-shadow:0 12px 25px rgba(16,185,129,.25);
+}
+
+/* PROFILE */
+
+.connect-05-profile{
+    text-align:center;
+    padding:30px 20px;
+    border-radius:30px;
+    background:rgba(255,255,255,.07);
+    border:1px solid rgba(255,255,255,.12);
+    box-shadow:0 20px 45px rgba(0,0,0,.35);
+    backdrop-filter:blur(12px);
+}
+
+.connect-05-img{
+    width:128px;
+    height:128px;
+    border-radius:50%;
+    overflow:hidden;
+    margin:auto;
+    border:5px solid #10b981;
+    box-shadow:0 0 35px rgba(16,185,129,.25);
+}
+
+.connect-05-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+}
+
+.connect-05-profile h1{
+    margin-top:22px;
+    font-size:30px;
+    font-weight:700;
+    color:white;
+}
+
+.connect-05-profile h2{
+    margin-top:7px;
+    font-size:16px;
+    font-weight:600;
+    color:#10b981;
+}
+
+.connect-05-profile p{
+    margin-top:6px;
+    font-size:14px;
+    color:#cbd5e1;
+}
+
+.connect-05-badge{
+    margin:18px auto 0;
+    width:max-content;
+    max-width:100%;
+    padding:10px 14px;
+    border-radius:30px;
+    background:rgba(16,185,129,.12);
+    color:#6ee7b7;
+    font-size:12px;
+    font-weight:600;
+    display:flex;
+    align-items:center;
+    gap:7px;
+    border:1px solid rgba(16,185,129,.25);
+}
+
+/* ACTION BUTTONS */
+
+.connect-05-actions{
+    margin-top:22px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:12px;
+}
+
+.connect-05-actions a{
+    background:rgba(255,255,255,.08);
+    text-decoration:none;
+    text-align:center;
+    padding:15px 6px;
+    border-radius:20px;
+    color:white;
+    box-shadow:0 12px 28px rgba(0,0,0,.22);
+    border:1px solid rgba(255,255,255,.1);
+}
+
+.connect-05-actions i{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    color:#031712;
+    font-size:18px;
+    background:linear-gradient(135deg,#10b981,#6ee7b7);
+}
+
+.connect-05-actions span{
+    display:block;
+    margin-top:9px;
+    font-size:11px;
+    font-weight:600;
+    color:#e5e7eb;
+}
+
+/* ABOUT */
+
+.connect-05-about{
+    margin-top:24px;
+    background:rgba(255,255,255,.08);
+    border-radius:22px;
+    padding:20px;
+    border:1px solid rgba(255,255,255,.1);
+    box-shadow:0 12px 28px rgba(0,0,0,.22);
+}
+
+.connect-05-about h3,
+.connect-05-section h3{
+    font-size:18px;
+    color:#10b981;
+    margin-bottom:12px;
+}
+
+.connect-05-about p{
+    font-size:14px;
+    line-height:1.6;
+    color:#d1d5db;
+}
+
+/* LINKS */
+
+.connect-05-section{
+    margin-top:24px;
+}
+
+.connect-05-links{
+    display:flex;
+    flex-direction:column;
+    gap:13px;
+}
+
+.connect-05-links a{
+    background:rgba(255,255,255,.08);
+    border-radius:20px;
+    padding:16px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    text-decoration:none;
+    color:white;
+    box-shadow:0 12px 28px rgba(0,0,0,.22);
+    border:1px solid rgba(255,255,255,.1);
+}
+
+.connect-05-links a div{
+    display:flex;
+    align-items:center;
+    gap:13px;
+}
+
+.connect-05-links a div i{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:18px;
+    color:#031712;
+    background:#10b981;
+}
+
+.connect-05-links span{
+    font-size:15px;
+    font-weight:600;
+    color:#f8fafc;
+}
+
+.connect-05-links small{
+    font-size:12px;
+    color:#9ca3af;
+}
+
+/* FOOTER */
+
+.connect-05-footer{
+    margin-top:35px;
+    text-align:center;
+}
+
+.connect-05-footer p{
+    font-size:13px;
+    color:#cbd5e1;
+}
+
+.connect-05-footer strong{
+    color:#10b981;
+}
+
+.connect-05-footer span{
+    display:block;
+    margin-top:5px;
+    font-size:12px;
+    color:#9ca3af;
+}
+
+
+
+
+
+
+
+
+/* ===========================
+   CLASSIC CONNECT 06 TEMPLATE
+   Luxury Executive / Premium Glass Design
+=========================== */
+
+
+/* ===========================
+   PAGE BODY
+=========================== */
+
+.connect-06-body{
+    min-height:100vh;
+    background:#020617;
+    color:white;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+    font-family:'Poppins', Arial, sans-serif;
+}
+
+
+/* ===========================
+   MAIN PAGE WRAPPER
+=========================== */
+
+.connect-06-page{
+    width:100%;
+    max-width:430px;
+    min-height:100vh;
+    padding:24px 16px 38px;
+    background:
+        radial-gradient(circle at top left, rgba(245,185,50,.22), transparent 35%),
+        radial-gradient(circle at top right, rgba(59,130,246,.20), transparent 32%),
+        radial-gradient(circle at bottom, rgba(15,23,42,.9), transparent 45%),
+        #020617;
+    position:relative;
+    overflow:hidden;
+}
+
+
+/* ===========================
+   TOP BRAND BAR
+=========================== */
+
+.connect-06-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:26px;
+    position:relative;
+    z-index:2;
+}
+
+.connect-06-logo{
+    display:flex;
+    align-items:center;
+    gap:9px;
+}
+
+.connect-06-logo img{
+    width:38px;
+}
+
+.connect-06-logo span{
+    font-size:15px;
+    font-weight:700;
+    color:#ffffff;
+    letter-spacing:.3px;
+}
+
+.connect-06-save{
+    color:#020617;
+    background:linear-gradient(135deg,#f5b932,#ffe08a);
+    text-decoration:none;
+    padding:11px 14px;
+    border-radius:30px;
+    display:flex;
+    align-items:center;
+    gap:7px;
+    font-size:12px;
+    font-weight:700;
+    box-shadow:0 14px 28px rgba(245,185,50,.22);
+}
+
+
+/* ===========================
+   HERO PROFILE CARD
+=========================== */
+
+.connect-06-hero{
+    position:relative;
+    text-align:center;
+    padding:34px 20px 30px;
+    border-radius:34px;
+    background:linear-gradient(
+        180deg,
+        rgba(255,255,255,.13),
+        rgba(255,255,255,.05)
+    );
+    border:1px solid rgba(255,255,255,.14);
+    box-shadow:0 25px 60px rgba(0,0,0,.42);
+    backdrop-filter:blur(16px);
+    overflow:hidden;
+}
+
+.connect-06-glow{
+    position:absolute;
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    background:rgba(245,185,50,.20);
+    filter:blur(35px);
+    top:-70px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.connect-06-profile-img{
+    width:138px;
+    height:138px;
+    margin:auto;
+    border-radius:50%;
+    overflow:hidden;
+    border:5px solid #f5b932;
+    box-shadow:
+        0 0 0 8px rgba(245,185,50,.09),
+        0 0 35px rgba(245,185,50,.35);
+    position:relative;
+    z-index:2;
+}
+
+.connect-06-profile-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+}
+
+.connect-06-verified{
+    width:max-content;
+    max-width:100%;
+    margin:18px auto 0;
+    padding:9px 13px;
+    border-radius:30px;
+    background:rgba(59,130,246,.13);
+    border:1px solid rgba(96,165,250,.25);
+    color:#bfdbfe;
+    font-size:11px;
+    font-weight:600;
+    display:flex;
+    align-items:center;
+    gap:7px;
+    position:relative;
+    z-index:2;
+}
+
+.connect-06-verified i{
+    color:#f5b932;
+}
+
+.connect-06-hero h1{
+    margin-top:18px;
+    font-size:32px;
+    line-height:1.15;
+    font-weight:700;
+    color:#ffffff;
+    position:relative;
+    z-index:2;
+}
+
+.connect-06-hero h2{
+    margin-top:8px;
+    font-size:16px;
+    font-weight:600;
+    color:#f5b932;
+    position:relative;
+    z-index:2;
+}
+
+.connect-06-hero p{
+    margin-top:6px;
+    font-size:13px;
+    color:#cbd5e1;
+    position:relative;
+    z-index:2;
+}
+
+
+/* ===========================
+   QUICK ACTION BUTTONS
+=========================== */
+
+.connect-06-actions{
+    margin-top:22px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:11px;
+}
+
+.connect-06-actions a{
+    text-decoration:none;
+    color:white;
+    text-align:center;
+    padding:14px 6px;
+    border-radius:22px;
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.11);
+    box-shadow:0 14px 28px rgba(0,0,0,.25);
+}
+
+.connect-06-actions i{
+    width:42px;
+    height:42px;
+    margin:auto;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#020617;
+    font-size:17px;
+    background:linear-gradient(135deg,#f5b932,#ffe08a);
+}
+
+.connect-06-actions span{
+    display:block;
+    margin-top:9px;
+    font-size:11px;
+    font-weight:600;
+    color:#e5e7eb;
+}
+
+
+/* ===========================
+   ABOUT CARD
+=========================== */
+
+.connect-06-card{
+    margin-top:24px;
+    padding:20px;
+    border-radius:26px;
+    background:rgba(255,255,255,.07);
+    border:1px solid rgba(255,255,255,.11);
+    box-shadow:0 14px 30px rgba(0,0,0,.25);
+}
+
+.connect-06-card-title{
+    display:flex;
+    align-items:center;
+    gap:11px;
+    margin-bottom:12px;
+}
+
+.connect-06-card-title i{
+    width:38px;
+    height:38px;
+    border-radius:50%;
+    background:rgba(245,185,50,.14);
+    color:#f5b932;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.connect-06-card-title h3{
+    font-size:17px;
+    color:#f5b932;
+    font-weight:700;
+}
+
+.connect-06-card p{
+    font-size:13px;
+    line-height:1.7;
+    color:#d1d5db;
+}
+
+
+/* ===========================
+   SOCIAL SECTION TITLE
+=========================== */
+
+.connect-06-section{
+    margin-top:25px;
+}
+
+.connect-06-title{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    margin-bottom:17px;
+}
+
+.connect-06-title span{
+    flex:1;
+    height:1px;
+    background:rgba(245,185,50,.35);
+}
+
+.connect-06-title p{
+    font-size:11px;
+    font-weight:700;
+    letter-spacing:2px;
+    color:#f5b932;
+}
+
+
+/* ===========================
+   SOCIAL LINKS
+=========================== */
+
+.connect-06-links{
+    display:flex;
+    flex-direction:column;
+    gap:13px;
+}
+
+.connect-06-links a{
+    text-decoration:none;
+    color:white;
+    padding:16px;
+    border-radius:22px;
+    background:rgba(255,255,255,.075);
+    border:1px solid rgba(255,255,255,.11);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 14px 28px rgba(0,0,0,.22);
+}
+
+.connect-06-link-left{
+    display:flex;
+    align-items:center;
+    gap:13px;
+}
+
+.connect-06-link-left i{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:18px;
+    background:white;
+}
+
+.connect-06-link-left strong{
+    display:block;
+    font-size:15px;
+    font-weight:600;
+    color:#f8fafc;
+}
+
+.connect-06-link-left small{
+    display:block;
+    margin-top:3px;
+    font-size:12px;
+    color:#94a3b8;
+}
+
+.connect-06-arrow{
+    color:#f5b932;
+    font-size:13px;
+}
+
+.instagram-06{
+    color:#e1306c;
+}
+
+.tiktok-06{
+    color:#000000;
+}
+
+.facebook-06{
+    color:#1877f2;
+}
+
+.website-06{
+    color:#2563eb;
+}
+
+
+/* ===========================
+   LOCATION CARD
+=========================== */
+
+.connect-06-location{
+    margin-top:24px;
+    padding:17px;
+    border-radius:24px;
+    background:linear-gradient(
+        135deg,
+        rgba(245,185,50,.14),
+        rgba(255,255,255,.06)
+    );
+    border:1px solid rgba(245,185,50,.18);
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.connect-06-location i{
+    width:46px;
+    height:46px;
+    border-radius:50%;
+    background:rgba(245,185,50,.16);
+    color:#f5b932;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    flex-shrink:0;
+}
+
+.connect-06-location h3{
+    font-size:16px;
+    font-weight:700;
+    color:#ffffff;
+}
+
+.connect-06-location p{
+    margin-top:4px;
+    font-size:12px;
+    color:#cbd5e1;
+}
+
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.connect-06-footer{
+    margin-top:34px;
+    text-align:center;
+}
+
+.connect-06-footer span{
+    display:block;
+    font-size:12px;
+    color:#94a3b8;
+}
+
+.connect-06-footer strong{
+    display:block;
+    margin-top:3px;
+    font-size:16px;
+    color:#f5b932;
+    letter-spacing:1px;
+}
+
+.connect-06-footer p{
+    margin-top:7px;
+    font-size:11px;
+    color:#64748b;
+}
+
+
+
+
+
+/* ===========================
+   CLASSIC CONNECT 07 TEMPLATE
+   Black Platinum / Premium Cover Design
+=========================== */
+
+
+/* ===========================
+   PAGE BODY
+=========================== */
+
+.connect-07-body{
+    min-height:100vh;
+    background:#050505;
+    color:white;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+    font-family:'Poppins', Arial, sans-serif;
+}
+
+
+/* ===========================
+   MAIN PAGE WRAPPER
+=========================== */
+
+.connect-07-page{
+    width:100%;
+    max-width:430px;
+    min-height:100vh;
+    padding:24px 16px 38px;
+    background:
+        radial-gradient(circle at top left, rgba(255,255,255,.12), transparent 32%),
+        radial-gradient(circle at top right, rgba(212,175,55,.22), transparent 35%),
+        radial-gradient(circle at bottom, rgba(30,30,30,.9), transparent 45%),
+        #050505;
+    position:relative;
+    overflow:hidden;
+}
+
+
+/* ===========================
+   TOP BRAND HEADER
+=========================== */
+
+.connect-07-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:24px;
+    position:relative;
+    z-index:2;
+}
+
+.connect-07-logo{
+    display:flex;
+    align-items:center;
+    gap:9px;
+}
+
+.connect-07-logo img{
+    width:38px;
+}
+
+.connect-07-logo span{
+    font-size:15px;
+    font-weight:700;
+    color:#ffffff;
+    letter-spacing:.3px;
+}
+
+.connect-07-save{
+    color:#050505;
+    background:linear-gradient(135deg,#d4af37,#fff1a8);
+    text-decoration:none;
+    padding:11px 14px;
+    border-radius:30px;
+    display:flex;
+    align-items:center;
+    gap:7px;
+    font-size:12px;
+    font-weight:700;
+    box-shadow:0 14px 28px rgba(212,175,55,.22);
+}
+
+
+/* ===========================
+   PREMIUM COVER CARD
+=========================== */
+
+.connect-07-cover{
+    position:relative;
+    text-align:center;
+    padding:22px 18px 28px;
+    border-radius:34px;
+    background:
+        linear-gradient(160deg, rgba(255,255,255,.14), rgba(255,255,255,.05)),
+        linear-gradient(135deg, rgba(212,175,55,.20), transparent 45%);
+    border:1px solid rgba(255,255,255,.14);
+    box-shadow:0 28px 65px rgba(0,0,0,.55);
+    overflow:hidden;
+    backdrop-filter:blur(18px);
+}
+
+.connect-07-cover-shine{
+    position:absolute;
+    width:230px;
+    height:230px;
+    border-radius:50%;
+    background:rgba(212,175,55,.18);
+    filter:blur(40px);
+    top:-100px;
+    right:-80px;
+}
+
+.connect-07-brand-pill{
+    width:max-content;
+    max-width:100%;
+    margin:0 auto 22px;
+    padding:9px 13px;
+    border-radius:30px;
+    background:rgba(255,255,255,.10);
+    border:1px solid rgba(255,255,255,.12);
+    color:#f8e7a0;
+    font-size:11px;
+    font-weight:600;
+    display:flex;
+    align-items:center;
+    gap:7px;
+    position:relative;
+    z-index:2;
+}
+
+.connect-07-brand-pill i{
+    color:#d4af37;
+}
+
+.connect-07-profile-img{
+    width:138px;
+    height:138px;
+    margin:auto;
+    border-radius:50%;
+    overflow:hidden;
+    border:5px solid #d4af37;
+    box-shadow:
+        0 0 0 8px rgba(212,175,55,.08),
+        0 0 40px rgba(212,175,55,.35);
+    position:relative;
+    z-index:2;
+}
+
+.connect-07-profile-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+}
+
+.connect-07-profile-info h1{
+    margin-top:20px;
+    font-size:31px;
+    line-height:1.15;
+    font-weight:700;
+    color:#ffffff;
+    position:relative;
+    z-index:2;
+}
+
+.connect-07-profile-info h2{
+    margin-top:8px;
+    font-size:15px;
+    font-weight:600;
+    color:#d4af37;
+    position:relative;
+    z-index:2;
+}
+
+.connect-07-profile-info p{
+    margin-top:6px;
+    font-size:13px;
+    color:#cbd5e1;
+    position:relative;
+    z-index:2;
+}
+
+.connect-07-verified{
+    width:max-content;
+    max-width:100%;
+    margin:18px auto 0;
+    padding:9px 13px;
+    border-radius:30px;
+    background:rgba(212,175,55,.12);
+    border:1px solid rgba(212,175,55,.24);
+    color:#f8e7a0;
+    font-size:11px;
+    font-weight:600;
+    display:flex;
+    align-items:center;
+    gap:7px;
+    position:relative;
+    z-index:2;
+}
+
+.connect-07-verified i{
+    color:#d4af37;
+}
+
+
+/* ===========================
+   MINI INFO CARDS
+=========================== */
+
+.connect-07-mini-cards{
+    margin-top:18px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+}
+
+.connect-07-mini-cards div{
+    padding:14px 8px;
+    border-radius:20px;
+    background:rgba(255,255,255,.075);
+    border:1px solid rgba(255,255,255,.10);
+    text-align:center;
+    box-shadow:0 14px 28px rgba(0,0,0,.25);
+}
+
+.connect-07-mini-cards i{
+    color:#d4af37;
+    font-size:18px;
+    margin-bottom:8px;
+}
+
+.connect-07-mini-cards strong{
+    display:block;
+    font-size:12px;
+    color:#ffffff;
+    font-weight:700;
+}
+
+.connect-07-mini-cards span{
+    display:block;
+    margin-top:3px;
+    font-size:10px;
+    color:#94a3b8;
+}
+
+
+/* ===========================
+   QUICK ACTION BUTTONS
+=========================== */
+
+.connect-07-actions{
+    margin-top:22px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+}
+
+.connect-07-actions a{
+    text-decoration:none;
+    color:white;
+    text-align:center;
+    padding:14px 6px;
+    border-radius:22px;
+    background:rgba(255,255,255,.075);
+    border:1px solid rgba(255,255,255,.10);
+    box-shadow:0 14px 28px rgba(0,0,0,.25);
+}
+
+.connect-07-actions i{
+    width:42px;
+    height:42px;
+    margin:auto;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#050505;
+    font-size:17px;
+    background:linear-gradient(135deg,#d4af37,#fff1a8);
+}
+
+.connect-07-actions span{
+    display:block;
+    margin-top:9px;
+    font-size:11px;
+    font-weight:600;
+    color:#e5e7eb;
+}
+
+
+/* ===========================
+   ABOUT SECTION
+=========================== */
+
+.connect-07-about{
+    margin-top:24px;
+    padding:20px;
+    border-radius:26px;
+    background:rgba(255,255,255,.075);
+    border:1px solid rgba(255,255,255,.10);
+    box-shadow:0 14px 30px rgba(0,0,0,.25);
+}
+
+.connect-07-section-title{
+    display:flex;
+    align-items:center;
+    gap:11px;
+    margin-bottom:12px;
+}
+
+.connect-07-section-title i{
+    width:38px;
+    height:38px;
+    border-radius:50%;
+    background:rgba(212,175,55,.14);
+    color:#d4af37;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.connect-07-section-title h3{
+    font-size:17px;
+    color:#d4af37;
+    font-weight:700;
+}
+
+.connect-07-about p{
+    font-size:13px;
+    line-height:1.7;
+    color:#d1d5db;
+}
+
+
+/* ===========================
+   SOCIAL SECTION TITLE
+=========================== */
+
+.connect-07-section{
+    margin-top:25px;
+}
+
+.connect-07-title{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    margin-bottom:17px;
+}
+
+.connect-07-title span{
+    flex:1;
+    height:1px;
+    background:rgba(212,175,55,.35);
+}
+
+.connect-07-title p{
+    font-size:11px;
+    font-weight:700;
+    letter-spacing:2px;
+    color:#d4af37;
+}
+
+
+/* ===========================
+   SOCIAL LINKS
+=========================== */
+
+.connect-07-links{
+    display:flex;
+    flex-direction:column;
+    gap:13px;
+}
+
+.connect-07-links a{
+    text-decoration:none;
+    color:white;
+    padding:16px;
+    border-radius:22px;
+    background:rgba(255,255,255,.075);
+    border:1px solid rgba(255,255,255,.10);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 14px 28px rgba(0,0,0,.22);
+}
+
+.connect-07-link-left{
+    display:flex;
+    align-items:center;
+    gap:13px;
+}
+
+.connect-07-link-left i{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:18px;
+    background:white;
+}
+
+.connect-07-link-left strong{
+    display:block;
+    font-size:15px;
+    font-weight:600;
+    color:#f8fafc;
+}
+
+.connect-07-link-left small{
+    display:block;
+    margin-top:3px;
+    font-size:12px;
+    color:#94a3b8;
+}
+
+.connect-07-arrow{
+    color:#d4af37;
+    font-size:13px;
+}
+
+.instagram-07{
+    color:#e1306c;
+}
+
+.tiktok-07{
+    color:#000000;
+}
+
+.facebook-07{
+    color:#1877f2;
+}
+
+.website-07{
+    color:#2563eb;
+}
+
+
+/* ===========================
+   BUSINESS CARD FOOTER
+=========================== */
+
+.connect-07-footer{
+    margin-top:28px;
+    padding:18px;
+    border-radius:26px;
+    background:linear-gradient(
+        135deg,
+        rgba(212,175,55,.14),
+        rgba(255,255,255,.055)
+    );
+    border:1px solid rgba(212,175,55,.18);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:15px;
+}
+
+.connect-07-footer-logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.connect-07-footer-logo img{
+    width:38px;
+    flex-shrink:0;
+}
+
+.connect-07-footer-logo strong{
+    display:block;
+    color:#d4af37;
+    font-size:13px;
+    letter-spacing:1px;
+}
+
+.connect-07-footer-logo span{
+    display:block;
+    margin-top:3px;
+    color:#cbd5e1;
+    font-size:10px;
+}
+
+.connect-07-footer a{
+    color:#f8e7a0;
+    font-size:11px;
+    text-decoration:none;
+    font-weight:600;
+    flex-shrink:0;
+}
+
+
+
+
+
+
+
+
+
+/* ===========================
+   CLASSIC CONNECT 08 TEMPLATE
+   Clean Luxury White / Gold Design
+=========================== */
+
+
+/* ===========================
+   PAGE BODY
+=========================== */
+
+.connect-08-body{
+    min-height:100vh;
+    background:#f3f0e8;
+    color:#1f2937;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+    font-family:'Poppins', Arial, sans-serif;
+}
+
+
+/* ===========================
+   MAIN PAGE WRAPPER
+=========================== */
+
+.connect-08-page{
+    width:100%;
+    max-width:430px;
+    min-height:100vh;
+    padding:24px 16px 38px;
+    background:
+        radial-gradient(circle at top left, rgba(212,175,55,.18), transparent 35%),
+        radial-gradient(circle at bottom right, rgba(255,255,255,.95), transparent 40%),
+        #f3f0e8;
+}
+
+
+/* ===========================
+   TOP BRAND HEADER
+=========================== */
+
+.connect-08-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:24px;
+}
+
+.connect-08-logo{
+    display:flex;
+    align-items:center;
+    gap:9px;
+}
+
+.connect-08-logo img{
+    width:38px;
+}
+
+.connect-08-logo span{
+    font-size:15px;
+    font-weight:700;
+    color:#1f2937;
+}
+
+.connect-08-save{
+    color:white;
+    background:#1f2937;
+    text-decoration:none;
+    padding:11px 14px;
+    border-radius:30px;
+    display:flex;
+    align-items:center;
+    gap:7px;
+    font-size:12px;
+    font-weight:700;
+    box-shadow:0 14px 28px rgba(31,41,55,.18);
+}
+
+
+/* ===========================
+   PROFILE HERO CARD
+=========================== */
+
+.connect-08-hero{
+    position:relative;
+    text-align:center;
+    padding:34px 20px 30px;
+    border-radius:34px;
+    background:#ffffff;
+    border:1px solid rgba(212,175,55,.18);
+    box-shadow:0 22px 50px rgba(31,41,55,.12);
+    overflow:hidden;
+}
+
+.connect-08-top-pattern{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:95px;
+    background:
+        linear-gradient(135deg,#d4af37,#fff0b8);
+}
+
+.connect-08-profile-img{
+    width:136px;
+    height:136px;
+    margin:36px auto 0;
+    border-radius:50%;
+    overflow:hidden;
+    border:6px solid #ffffff;
+    box-shadow:
+        0 0 0 4px rgba(212,175,55,.45),
+        0 18px 35px rgba(31,41,55,.20);
+    position:relative;
+    z-index:2;
+}
+
+.connect-08-profile-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+}
+
+.connect-08-badge{
+    width:max-content;
+    max-width:100%;
+    margin:18px auto 0;
+    padding:9px 13px;
+    border-radius:30px;
+    background:rgba(212,175,55,.12);
+    color:#9a7415;
+    border:1px solid rgba(212,175,55,.22);
+    display:flex;
+    align-items:center;
+    gap:7px;
+    font-size:11px;
+    font-weight:700;
+}
+
+.connect-08-badge i{
+    color:#d4af37;
+}
+
+.connect-08-hero h1{
+    margin-top:17px;
+    font-size:31px;
+    line-height:1.15;
+    font-weight:700;
+    color:#111827;
+}
+
+.connect-08-hero h2{
+    margin-top:8px;
+    font-size:15px;
+    font-weight:600;
+    color:#b8860b;
+}
+
+.connect-08-hero p{
+    margin-top:6px;
+    font-size:13px;
+    color:#6b7280;
+}
+
+
+/* ===========================
+   QUICK ACTION BUTTONS
+=========================== */
+
+.connect-08-actions{
+    margin-top:22px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:11px;
+}
+
+.connect-08-actions a{
+    text-decoration:none;
+    color:#1f2937;
+    text-align:center;
+    padding:14px 6px;
+    border-radius:22px;
+    background:#ffffff;
+    border:1px solid rgba(31,41,55,.06);
+    box-shadow:0 14px 28px rgba(31,41,55,.10);
+}
+
+.connect-08-actions i{
+    width:42px;
+    height:42px;
+    margin:auto;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:17px;
+    background:#1f2937;
+}
+
+.connect-08-actions span{
+    display:block;
+    margin-top:9px;
+    font-size:11px;
+    font-weight:600;
+    color:#4b5563;
+}
+
+
+/* ===========================
+   ABOUT CARD
+=========================== */
+
+.connect-08-about{
+    margin-top:24px;
+    padding:20px;
+    border-radius:26px;
+    background:#ffffff;
+    border:1px solid rgba(31,41,55,.06);
+    box-shadow:0 14px 30px rgba(31,41,55,.10);
+}
+
+.connect-08-section-title{
+    display:flex;
+    align-items:center;
+    gap:11px;
+    margin-bottom:12px;
+}
+
+.connect-08-section-title i{
+    width:38px;
+    height:38px;
+    border-radius:50%;
+    background:rgba(212,175,55,.14);
+    color:#b8860b;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.connect-08-section-title h3{
+    font-size:17px;
+    color:#111827;
+    font-weight:700;
+}
+
+.connect-08-about p{
+    font-size:13px;
+    line-height:1.7;
+    color:#4b5563;
+}
+
+
+/* ===========================
+   CONTACT INFO STRIP
+=========================== */
+
+.connect-08-info-strip{
+    margin-top:18px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:11px;
+}
+
+.connect-08-info-strip div{
+    background:#ffffff;
+    border-radius:20px;
+    padding:14px 10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    border:1px solid rgba(31,41,55,.06);
+    box-shadow:0 12px 24px rgba(31,41,55,.08);
+}
+
+.connect-08-info-strip i{
+    color:#b8860b;
+    font-size:15px;
+}
+
+.connect-08-info-strip span{
+    font-size:11px;
+    font-weight:600;
+    color:#4b5563;
+}
+
+
+/* ===========================
+   SOCIAL SECTION TITLE
+=========================== */
+
+.connect-08-section{
+    margin-top:25px;
+}
+
+.connect-08-title{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    margin-bottom:17px;
+}
+
+.connect-08-title span{
+    flex:1;
+    height:1px;
+    background:rgba(31,41,55,.18);
+}
+
+.connect-08-title p{
+    font-size:11px;
+    font-weight:700;
+    letter-spacing:2px;
+    color:#9a7415;
+}
+
+
+/* ===========================
+   SOCIAL LINKS
+=========================== */
+
+.connect-08-links{
+    display:flex;
+    flex-direction:column;
+    gap:13px;
+}
+
+.connect-08-links a{
+    text-decoration:none;
+    color:#111827;
+    padding:16px;
+    border-radius:22px;
+    background:#ffffff;
+    border:1px solid rgba(31,41,55,.06);
+    display:flex;
+    align-items:center;
+    gap:13px;
+    box-shadow:0 14px 28px rgba(31,41,55,.09);
+}
+
+.connect-08-links a i{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:18px;
+    background:#f5f3ee;
+    flex-shrink:0;
+}
+
+.connect-08-links a div{
+    flex:1;
+}
+
+.connect-08-links strong{
+    display:block;
+    font-size:15px;
+    font-weight:600;
+    color:#111827;
+}
+
+.connect-08-links small{
+    display:block;
+    margin-top:3px;
+    font-size:12px;
+    color:#6b7280;
+}
+
+.connect-08-open{
+    padding:7px 10px;
+    border-radius:20px;
+    background:rgba(212,175,55,.12);
+    color:#9a7415;
+    font-size:10px;
+    font-weight:700;
+}
+
+.instagram-08{
+    color:#e1306c;
+}
+
+.tiktok-08{
+    color:#000000;
+}
+
+.facebook-08{
+    color:#1877f2;
+}
+
+.website-08{
+    color:#2563eb;
+}
+
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.connect-08-footer{
+    margin-top:34px;
+    text-align:center;
+}
+
+.connect-08-footer p{
+    font-size:13px;
+    color:#6b7280;
+}
+
+.connect-08-footer strong{
+    color:#9a7415;
+}
+
+.connect-08-footer span{
+    display:block;
+    margin-top:5px;
+    font-size:11px;
+    color:#9ca3af;
+}
+
+
+
+
+
+
+
+
+
+/* ===========================
+   CLASSIC CONNECT 09 TEMPLATE
+   Modern Blue Tech / Digital Profile Design
+=========================== */
+
+
+/* ===========================
+   PAGE BODY
+=========================== */
+
+.connect-09-body{
+    min-height:100vh;
+    background:#eaf2ff;
+    color:#0f172a;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+    font-family:'Poppins', Arial, sans-serif;
+}
+
+
+/* ===========================
+   MAIN PAGE WRAPPER
+=========================== */
+
+.connect-09-page{
+    width:100%;
+    max-width:430px;
+    min-height:100vh;
+    padding:24px 16px 38px;
+    background:
+        radial-gradient(circle at top left, rgba(37,99,235,.20), transparent 34%),
+        radial-gradient(circle at bottom right, rgba(14,165,233,.18), transparent 38%),
+        #eaf2ff;
+    overflow:hidden;
+}
+
+
+/* ===========================
+   TOP HEADER
+=========================== */
+
+.connect-09-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:24px;
+}
+
+.connect-09-logo{
+    display:flex;
+    align-items:center;
+    gap:9px;
+}
+
+.connect-09-logo img{
+    width:38px;
+}
+
+.connect-09-logo span{
+    font-size:15px;
+    font-weight:700;
+    color:#0f172a;
+}
+
+.connect-09-save{
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    padding:11px 14px;
+    border-radius:30px;
+    display:flex;
+    align-items:center;
+    gap:7px;
+    font-size:12px;
+    font-weight:700;
+    box-shadow:0 14px 28px rgba(37,99,235,.22);
+}
+
+
+/* ===========================
+   PROFILE HERO
+=========================== */
+
+.connect-09-hero{
+    position:relative;
+    text-align:center;
+    padding:34px 20px 30px;
+    border-radius:34px;
+    background:linear-gradient(160deg,#0f172a,#1d4ed8);
+    box-shadow:0 24px 55px rgba(15,23,42,.25);
+    overflow:hidden;
+}
+
+.connect-09-bg-circle{
+    position:absolute;
+    border-radius:50%;
+    filter:blur(3px);
+    opacity:.55;
+}
+
+.connect-09-bg-circle.one{
+    width:150px;
+    height:150px;
+    background:rgba(96,165,250,.35);
+    top:-55px;
+    left:-45px;
+}
+
+.connect-09-bg-circle.two{
+    width:190px;
+    height:190px;
+    background:rgba(14,165,233,.24);
+    bottom:-85px;
+    right:-65px;
+}
+
+.connect-09-profile-img{
+    width:136px;
+    height:136px;
+    margin:auto;
+    border-radius:50%;
+    overflow:hidden;
+    border:5px solid #ffffff;
+    box-shadow:
+        0 0 0 7px rgba(147,197,253,.22),
+        0 18px 35px rgba(0,0,0,.25);
+    position:relative;
+    z-index:2;
+}
+
+.connect-09-profile-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+}
+
+.connect-09-status{
+    width:max-content;
+    max-width:100%;
+    margin:18px auto 0;
+    padding:9px 13px;
+    border-radius:30px;
+    background:rgba(255,255,255,.13);
+    color:#dbeafe;
+    border:1px solid rgba(255,255,255,.18);
+    display:flex;
+    align-items:center;
+    gap:7px;
+    font-size:11px;
+    font-weight:600;
+    position:relative;
+    z-index:2;
+}
+
+.connect-09-status i{
+    color:#38bdf8;
+}
+
+.connect-09-hero h1{
+    margin-top:18px;
+    font-size:31px;
+    line-height:1.15;
+    font-weight:700;
+    color:#ffffff;
+    position:relative;
+    z-index:2;
+}
+
+.connect-09-hero h2{
+    margin-top:8px;
+    font-size:15px;
+    font-weight:600;
+    color:#93c5fd;
+    position:relative;
+    z-index:2;
+}
+
+.connect-09-hero p{
+    margin-top:6px;
+    font-size:13px;
+    color:#dbeafe;
+    position:relative;
+    z-index:2;
+}
+
+
+/* ===========================
+   QUICK ACTIONS
+=========================== */
+
+.connect-09-actions{
+    margin-top:22px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:11px;
+}
+
+.connect-09-actions a{
+    text-decoration:none;
+    color:#0f172a;
+    text-align:center;
+    padding:14px 6px;
+    border-radius:22px;
+    background:#ffffff;
+    border:1px solid rgba(37,99,235,.08);
+    box-shadow:0 14px 28px rgba(15,23,42,.09);
+}
+
+.connect-09-actions i{
+    width:42px;
+    height:42px;
+    margin:auto;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:17px;
+    background:linear-gradient(135deg,#2563eb,#38bdf8);
+}
+
+.connect-09-actions span{
+    display:block;
+    margin-top:9px;
+    font-size:11px;
+    font-weight:600;
+    color:#475569;
+}
+
+
+/* ===========================
+   PROFILE SUMMARY
+=========================== */
+
+.connect-09-summary{
+    margin-top:18px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+}
+
+.connect-09-summary div{
+    background:#ffffff;
+    border-radius:20px;
+    padding:14px 8px;
+    text-align:center;
+    border:1px solid rgba(37,99,235,.08);
+    box-shadow:0 12px 24px rgba(15,23,42,.08);
+}
+
+.connect-09-summary i{
+    color:#2563eb;
+    font-size:18px;
+    margin-bottom:8px;
+}
+
+.connect-09-summary span{
+    display:block;
+    font-size:10px;
+    color:#64748b;
+    font-weight:500;
+}
+
+.connect-09-summary strong{
+    display:block;
+    margin-top:3px;
+    font-size:12px;
+    color:#0f172a;
+    font-weight:700;
+}
+
+
+/* ===========================
+   ABOUT / SERVICES CARD
+=========================== */
+
+.connect-09-card{
+    margin-top:22px;
+    padding:20px;
+    border-radius:26px;
+    background:#ffffff;
+    border:1px solid rgba(37,99,235,.08);
+    box-shadow:0 14px 30px rgba(15,23,42,.09);
+}
+
+.connect-09-card-title{
+    display:flex;
+    align-items:center;
+    gap:11px;
+    margin-bottom:12px;
+}
+
+.connect-09-card-title i{
+    width:38px;
+    height:38px;
+    border-radius:50%;
+    background:rgba(37,99,235,.10);
+    color:#2563eb;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.connect-09-card-title h3{
+    font-size:17px;
+    color:#0f172a;
+    font-weight:700;
+}
+
+.connect-09-card p{
+    font-size:13px;
+    line-height:1.7;
+    color:#475569;
+}
+
+
+/* ===========================
+   SOCIAL SECTION TITLE
+=========================== */
+
+.connect-09-section{
+    margin-top:25px;
+}
+
+.connect-09-title{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    margin-bottom:17px;
+}
+
+.connect-09-title span{
+    flex:1;
+    height:1px;
+    background:rgba(37,99,235,.18);
+}
+
+.connect-09-title p{
+    font-size:11px;
+    font-weight:700;
+    letter-spacing:2px;
+    color:#2563eb;
+}
+
+
+/* ===========================
+   SOCIAL LINKS
+=========================== */
+
+.connect-09-links{
+    display:flex;
+    flex-direction:column;
+    gap:13px;
+}
+
+.connect-09-links a{
+    text-decoration:none;
+    color:#0f172a;
+    padding:16px;
+    border-radius:22px;
+    background:#ffffff;
+    border:1px solid rgba(37,99,235,.08);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 14px 28px rgba(15,23,42,.08);
+}
+
+.connect-09-link-left{
+    display:flex;
+    align-items:center;
+    gap:13px;
+}
+
+.connect-09-link-left i{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:18px;
+    background:#eff6ff;
+    flex-shrink:0;
+}
+
+.connect-09-link-left strong{
+    display:block;
+    font-size:15px;
+    font-weight:600;
+    color:#0f172a;
+}
+
+.connect-09-link-left small{
+    display:block;
+    margin-top:3px;
+    font-size:12px;
+    color:#64748b;
+}
+
+.connect-09-links a > span{
+    padding:7px 10px;
+    border-radius:20px;
+    background:rgba(37,99,235,.10);
+    color:#2563eb;
+    font-size:10px;
+    font-weight:700;
+}
+
+.instagram-09{
+    color:#e1306c;
+}
+
+.tiktok-09{
+    color:#000000;
+}
+
+.facebook-09{
+    color:#1877f2;
+}
+
+.website-09{
+    color:#2563eb;
+}
+
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.connect-09-footer{
+    margin-top:28px;
+    padding:18px;
+    border-radius:26px;
+    background:#0f172a;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:15px;
+    box-shadow:0 18px 35px rgba(15,23,42,.22);
+}
+
+.connect-09-footer strong{
+    display:block;
+    color:#93c5fd;
+    font-size:13px;
+    letter-spacing:1px;
+}
+
+.connect-09-footer p{
+    margin-top:3px;
+    color:#cbd5e1;
+    font-size:10px;
+}
+
+.connect-09-footer a{
+    color:#ffffff;
+    font-size:11px;
+    text-decoration:none;
+    font-weight:600;
+    flex-shrink:0;
+}
+
+
+
+
+
+
+
+
+
+/* ===========================
+   CLASSIC CONNECT 10 TEMPLATE
+   Executive Split Card / Signature Premium Design
+=========================== */
+
+
+/* ===========================
+   PAGE BODY
+=========================== */
+
+.connect-10-body{
+    min-height:100vh;
+    background:#111827;
+    color:white;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+    font-family:'Poppins', Arial, sans-serif;
+}
+
+
+/* ===========================
+   MAIN PAGE WRAPPER
+=========================== */
+
+.connect-10-page{
+    width:100%;
+    max-width:430px;
+    min-height:100vh;
+    padding:24px 16px 38px;
+    background:
+        radial-gradient(circle at top left, rgba(245,185,50,.18), transparent 35%),
+        radial-gradient(circle at bottom right, rgba(99,102,241,.18), transparent 38%),
+        #111827;
+    overflow:hidden;
+}
+
+
+/* ===========================
+   TOP HEADER
+=========================== */
+
+.connect-10-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:24px;
+}
+
+.connect-10-logo{
+    display:flex;
+    align-items:center;
+    gap:9px;
+}
+
+.connect-10-logo img{
+    width:38px;
+}
+
+.connect-10-logo span{
+    font-size:15px;
+    font-weight:700;
+    color:#ffffff;
+}
+
+.connect-10-save{
+    background:#f5b932;
+    color:#111827;
+    text-decoration:none;
+    padding:11px 14px;
+    border-radius:30px;
+    display:flex;
+    align-items:center;
+    gap:7px;
+    font-size:12px;
+    font-weight:700;
+    box-shadow:0 14px 28px rgba(245,185,50,.22);
+}
+
+
+/* ===========================
+   EXECUTIVE PROFILE CARD
+=========================== */
+
+.connect-10-hero{
+    position:relative;
+    padding:24px 18px;
+    border-radius:34px;
+    background:
+        linear-gradient(145deg, rgba(255,255,255,.13), rgba(255,255,255,.05));
+    border:1px solid rgba(255,255,255,.14);
+    box-shadow:0 28px 65px rgba(0,0,0,.38);
+    overflow:hidden;
+    backdrop-filter:blur(16px);
+}
+
+.connect-10-shape{
+    position:absolute;
+    border-radius:50%;
+    filter:blur(35px);
+}
+
+.connect-10-shape.one{
+    width:160px;
+    height:160px;
+    background:rgba(245,185,50,.20);
+    top:-70px;
+    right:-65px;
+}
+
+.connect-10-shape.two{
+    width:170px;
+    height:170px;
+    background:rgba(99,102,241,.18);
+    bottom:-80px;
+    left:-70px;
+}
+
+.connect-10-profile-top{
+    display:flex;
+    align-items:center;
+    gap:16px;
+    position:relative;
+    z-index:2;
+}
+
+.connect-10-profile-img{
+    width:112px;
+    height:112px;
+    border-radius:26px;
+    overflow:hidden;
+    border:4px solid #f5b932;
+    box-shadow:0 18px 35px rgba(0,0,0,.35);
+    flex-shrink:0;
+}
+
+.connect-10-profile-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+}
+
+.connect-10-profile-text{
+    flex:1;
+    min-width:0;
+}
+
+.connect-10-label{
+    display:inline-block;
+    padding:7px 10px;
+    border-radius:30px;
+    background:rgba(245,185,50,.13);
+    border:1px solid rgba(245,185,50,.24);
+    color:#fde68a;
+    font-size:10px;
+    font-weight:700;
+    margin-bottom:9px;
+}
+
+.connect-10-profile-text h1{
+    font-size:25px;
+    line-height:1.15;
+    font-weight:700;
+    color:#ffffff;
+}
+
+.connect-10-profile-text h2{
+    margin-top:6px;
+    font-size:14px;
+    font-weight:600;
+    color:#f5b932;
+}
+
+.connect-10-profile-text p{
+    margin-top:5px;
+    font-size:12px;
+    color:#cbd5e1;
+}
+
+.connect-10-line{
+    height:1px;
+    background:rgba(255,255,255,.14);
+    margin:22px 0;
+    position:relative;
+    z-index:2;
+}
+
+.connect-10-bio{
+    display:flex;
+    gap:13px;
+    align-items:flex-start;
+    position:relative;
+    z-index:2;
+}
+
+.connect-10-bio i{
+    color:#f5b932;
+    font-size:18px;
+    margin-top:3px;
+}
+
+.connect-10-bio p{
+    font-size:13px;
+    line-height:1.7;
+    color:#d1d5db;
+}
+
+
+/* ===========================
+   QUICK ACTIONS
+=========================== */
+
+.connect-10-actions{
+    margin-top:22px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+}
+
+.connect-10-actions a{
+    text-decoration:none;
+    color:white;
+    text-align:center;
+    padding:14px 6px;
+    border-radius:22px;
+    background:rgba(255,255,255,.075);
+    border:1px solid rgba(255,255,255,.10);
+    box-shadow:0 14px 28px rgba(0,0,0,.22);
+}
+
+.connect-10-actions i{
+    width:42px;
+    height:42px;
+    margin:auto;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#111827;
+    font-size:17px;
+    background:linear-gradient(135deg,#f5b932,#ffe08a);
+}
+
+.connect-10-actions span{
+    display:block;
+    margin-top:9px;
+    font-size:11px;
+    font-weight:600;
+    color:#e5e7eb;
+}
+
+
+/* ===========================
+   PROFESSIONAL DETAILS
+=========================== */
+
+.connect-10-details{
+    margin-top:18px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:11px;
+}
+
+.connect-10-details div{
+    padding:16px 14px;
+    border-radius:22px;
+    background:rgba(255,255,255,.075);
+    border:1px solid rgba(255,255,255,.10);
+    box-shadow:0 14px 28px rgba(0,0,0,.22);
+}
+
+.connect-10-details i{
+    color:#f5b932;
+    font-size:18px;
+    margin-bottom:9px;
+}
+
+.connect-10-details span{
+    display:block;
+    font-size:11px;
+    color:#94a3b8;
+    font-weight:500;
+}
+
+.connect-10-details strong{
+    display:block;
+    margin-top:4px;
+    font-size:13px;
+    color:#ffffff;
+    font-weight:700;
+}
+
+
+/* ===========================
+   CONTENT CARDS
+=========================== */
+
+.connect-10-card{
+    margin-top:22px;
+    padding:20px;
+    border-radius:26px;
+    background:rgba(255,255,255,.075);
+    border:1px solid rgba(255,255,255,.10);
+    box-shadow:0 14px 30px rgba(0,0,0,.22);
+}
+
+.connect-10-card-title{
+    display:flex;
+    align-items:center;
+    gap:11px;
+    margin-bottom:12px;
+}
+
+.connect-10-card-title i{
+    width:38px;
+    height:38px;
+    border-radius:50%;
+    background:rgba(245,185,50,.14);
+    color:#f5b932;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.connect-10-card-title h3{
+    font-size:17px;
+    color:#f5b932;
+    font-weight:700;
+}
+
+.connect-10-card p{
+    font-size:13px;
+    line-height:1.7;
+    color:#d1d5db;
+}
+
+
+/* ===========================
+   SOCIAL SECTION TITLE
+=========================== */
+
+.connect-10-section{
+    margin-top:25px;
+}
+
+.connect-10-title{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    margin-bottom:17px;
+}
+
+.connect-10-title span{
+    flex:1;
+    height:1px;
+    background:rgba(245,185,50,.35);
+}
+
+.connect-10-title p{
+    font-size:11px;
+    font-weight:700;
+    letter-spacing:2px;
+    color:#f5b932;
+}
+
+
+/* ===========================
+   SOCIAL LINKS
+=========================== */
+
+.connect-10-links{
+    display:flex;
+    flex-direction:column;
+    gap:13px;
+}
+
+.connect-10-links a{
+    text-decoration:none;
+    color:white;
+    padding:16px;
+    border-radius:22px;
+    background:rgba(255,255,255,.075);
+    border:1px solid rgba(255,255,255,.10);
+    display:flex;
+    align-items:center;
+    gap:13px;
+    box-shadow:0 14px 28px rgba(0,0,0,.22);
+}
+
+.connect-10-links a > i{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:18px;
+    background:white;
+    flex-shrink:0;
+}
+
+.connect-10-links a div{
+    flex:1;
+}
+
+.connect-10-links strong{
+    display:block;
+    font-size:15px;
+    font-weight:600;
+    color:#f8fafc;
+}
+
+.connect-10-links small{
+    display:block;
+    margin-top:3px;
+    font-size:12px;
+    color:#94a3b8;
+}
+
+.connect-10-links em{
+    font-style:normal;
+    padding:7px 10px;
+    border-radius:20px;
+    background:rgba(245,185,50,.13);
+    color:#fde68a;
+    font-size:10px;
+    font-weight:700;
+}
+
+.instagram-10{
+    color:#e1306c;
+}
+
+.tiktok-10{
+    color:#000000;
+}
+
+.facebook-10{
+    color:#1877f2;
+}
+
+.website-10{
+    color:#2563eb;
+}
+
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.connect-10-footer{
+    margin-top:28px;
+    padding:18px;
+    border-radius:26px;
+    background:linear-gradient(
+        135deg,
+        rgba(245,185,50,.15),
+        rgba(255,255,255,.055)
+    );
+    border:1px solid rgba(245,185,50,.18);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:15px;
+}
+
+.connect-10-footer-brand{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.connect-10-footer-brand img{
+    width:38px;
+    flex-shrink:0;
+}
+
+.connect-10-footer-brand strong{
+    display:block;
+    color:#f5b932;
+    font-size:13px;
+    letter-spacing:1px;
+}
+
+.connect-10-footer-brand span{
+    display:block;
+    margin-top:3px;
+    color:#cbd5e1;
+    font-size:10px;
+}
+
+.connect-10-footer a{
+    color:#fde68a;
+    font-size:11px;
+    text-decoration:none;
+    font-weight:600;
+    flex-shrink:0;
+}

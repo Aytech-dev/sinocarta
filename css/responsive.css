@@ -1,0 +1,1121 @@
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
+
+@media (max-width:480px){
+
+    body{
+        padding:20px 10px;
+        zoom:100%;
+    }
+
+    .classic-page{
+        max-width:100%;
+    }
+
+    .profile-ring{
+        width:145px;
+        height:145px;
+    }
+
+    .profile-section h1{
+        font-size:34px;
+        margin-top:22px;
+    }
+
+    .profile-section h2{
+        font-size:16px;
+    }
+
+    .business-name{
+        font-size:13px;
+    }
+
+    .tagline{
+        font-size:13px;
+    }
+
+    .action-buttons{
+        gap:8px;
+    }
+
+    .action{
+        height:58px;
+        padding:8px 6px;
+        border-radius:15px;
+        gap:6px;
+    }
+
+    .action i{
+        width:28px;
+        height:28px;
+        font-size:12px;
+    }
+
+    .action strong{
+        font-size:11px;
+    }
+
+    .action span{
+        font-size:8px;
+    }
+
+    .section-title{
+        margin:35px 0;
+        gap:12px;
+    }
+
+    .section-title p{
+        font-size:11px;
+        letter-spacing:2px;
+    }
+
+    .social-grid{
+        gap:8px;
+    }
+
+    .social-grid a{
+        padding:10px 6px;
+        border-radius:16px;
+    }
+
+    .social-grid i{
+        font-size:24px;
+        margin-bottom:8px;
+    }
+
+    .social-grid p{
+        font-size:11px;
+    }
+
+    .location-card{
+        padding:12px;
+        gap:12px;
+    }
+
+    .location-card i{
+        font-size:30px;
+    }
+
+    .location-card h3{
+        font-size:17px;
+    }
+
+    .location-card p{
+        font-size:12px;
+    }
+
+    .classic-footer{
+        padding:14px;
+        gap:10px;
+    }
+
+    .classic-footer i{
+        width:34px;
+        height:34px;
+        font-size:16px;
+    }
+
+    .footer-info{
+        gap:10px;
+    }
+
+    .footer-info strong{
+        font-size:11px;
+    }
+
+    .footer-info span{
+        font-size:10px;
+    }
+
+    .footer-brand{
+        padding-left:10px;
+    }
+
+    .footer-brand strong{
+        font-size:11px;
+    }
+
+    .footer-brand span{
+        font-size:10px;
+    }
+
+    .fa-crown{
+        left:0;
+    }
+}
+
+
+
+
+
+
+
+
+/* ===========================
+   MOBILE RESPONSIVE FOR CLASSIC CONNECT 01
+=========================== */
+
+@media(max-width:480px){
+
+    .connect-body{
+        padding:0;
+    }
+
+    .connect-page{
+        max-width:100%;
+        padding:24px 16px 40px;
+    }
+
+    .connect-logo img{
+        width:44px;
+    }
+
+    .connect-logo span{
+        font-size:19px;
+    }
+
+    .save-contact-btn{
+        padding:11px 14px;
+        font-size:12px;
+        border-radius:14px;
+    }
+
+    .connect-profile-img{
+        width:155px;
+        height:155px;
+    }
+
+    .connect-profile h1{
+        font-size:34px;
+    }
+
+    .connect-profile h2{
+        font-size:16px;
+    }
+
+    .connect-profile p{
+        font-size:13px;
+    }
+
+    .connect-actions{
+        gap:12px;
+        margin-top:34px;
+    }
+
+    .connect-actions i{
+        width:52px;
+        height:52px;
+        font-size:20px;
+    }
+
+    .connect-actions span{
+        font-size:12px;
+    }
+
+    .connect-title p{
+        font-size:12px;
+    }
+
+    .connect-list a{
+        padding:16px;
+        gap:14px;
+    }
+
+    .connect-list strong{
+        font-size:15px;
+    }
+
+    .connect-list small{
+        font-size:11px;
+    }
+
+    .facebook-icon,
+    .instagram-icon,
+    .tiktok-icon,
+    .website-icon{
+        font-size:27px;
+    }
+
+    .connect-about{
+        padding:18px;
+        gap:14px;
+    }
+
+    .connect-about i{
+        width:46px;
+        height:46px;
+        font-size:18px;
+    }
+
+    .connect-about p{
+        font-size:13px;
+    }
+
+    .connect-footer{
+        font-size:13px;
+    }
+}
+
+
+
+
+
+/* MOBILE CONNECT 02 */
+
+@media(max-width:480px){
+
+    .connect-02-body{
+        padding:0;
+    }
+
+    .connect-02-page{
+        max-width:100%;
+        padding:25px 16px 35px;
+    }
+
+    .connect-02-profile h1{
+        font-size:28px;
+    }
+
+    .connect-02-img{
+        width:115px;
+        height:115px;
+    }
+}
+
+
+
+
+
+/* MOBILE */
+
+@media(max-width:480px){
+
+    .connect-03-body{
+        padding:0;
+    }
+
+    .connect-03-page{
+        max-width:100%;
+        padding:24px 16px 35px;
+    }
+
+    .connect-03-profile h1{
+        font-size:28px;
+    }
+
+    .connect-03-img{
+        width:120px;
+        height:120px;
+    }
+
+    .connect-03-actions{
+        gap:10px;
+    }
+
+    .connect-03-actions span{
+        font-size:11px;
+    }
+}
+
+
+
+
+
+
+
+/* MOBILE */
+
+@media(max-width:480px){
+
+    .connect-04-body{
+        padding:0;
+    }
+
+    .connect-04-page{
+        max-width:100%;
+        padding:24px 16px 35px;
+    }
+
+    .connect-04-profile-card h1{
+        font-size:28px;
+    }
+
+    .connect-04-img{
+        width:118px;
+        height:118px;
+    }
+
+    .connect-04-actions{
+        gap:10px;
+    }
+
+    .connect-04-actions i{
+        width:38px;
+        height:38px;
+        font-size:16px;
+    }
+
+    .connect-04-actions span{
+        font-size:10px;
+    }
+}
+
+
+
+
+/* MOBILE */
+
+@media(max-width:480px){
+
+    .connect-05-body{
+        padding:0;
+    }
+
+    .connect-05-page{
+        max-width:100%;
+        padding:24px 16px 35px;
+    }
+
+    .connect-05-profile h1{
+        font-size:28px;
+    }
+
+    .connect-05-img{
+        width:118px;
+        height:118px;
+    }
+
+    .connect-05-actions{
+        gap:10px;
+    }
+
+    .connect-05-actions i{
+        width:38px;
+        height:38px;
+        font-size:16px;
+    }
+
+    .connect-05-actions span{
+        font-size:10px;
+    }
+
+    .connect-05-links small{
+        display:none;
+    }
+}
+
+
+
+
+
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
+
+@media(max-width:480px){
+
+    .connect-06-body{
+        padding:0;
+    }
+
+    .connect-06-page{
+        max-width:100%;
+        padding:24px 16px 38px;
+    }
+
+    .connect-06-logo img{
+        width:34px;
+    }
+
+    .connect-06-logo span{
+        font-size:14px;
+    }
+
+    .connect-06-save{
+        padding:10px 13px;
+        font-size:11px;
+    }
+
+    .connect-06-hero{
+        padding:31px 18px 28px;
+    }
+
+    .connect-06-profile-img{
+        width:126px;
+        height:126px;
+    }
+
+    .connect-06-hero h1{
+        font-size:29px;
+    }
+
+    .connect-06-hero h2{
+        font-size:15px;
+    }
+
+    .connect-06-hero p{
+        font-size:12px;
+    }
+
+    .connect-06-actions{
+        gap:9px;
+    }
+
+    .connect-06-actions a{
+        padding:13px 5px;
+        border-radius:19px;
+    }
+
+    .connect-06-actions i{
+        width:38px;
+        height:38px;
+        font-size:15px;
+    }
+
+    .connect-06-actions span{
+        font-size:10px;
+    }
+
+    .connect-06-card{
+        padding:18px;
+    }
+
+    .connect-06-links a{
+        padding:15px;
+    }
+
+    .connect-06-link-left i{
+        width:39px;
+        height:39px;
+        font-size:16px;
+    }
+
+    .connect-06-link-left strong{
+        font-size:14px;
+    }
+
+    .connect-06-link-left small{
+        font-size:11px;
+    }
+
+    .connect-06-location h3{
+        font-size:15px;
+    }
+}
+
+
+
+
+
+
+
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
+
+@media(max-width:480px){
+
+    .connect-07-body{
+        padding:0;
+    }
+
+    .connect-07-page{
+        max-width:100%;
+        padding:24px 16px 38px;
+    }
+
+    .connect-07-logo img{
+        width:34px;
+    }
+
+    .connect-07-logo span{
+        font-size:14px;
+    }
+
+    .connect-07-save{
+        padding:10px 13px;
+        font-size:11px;
+    }
+
+    .connect-07-cover{
+        padding:21px 17px 27px;
+    }
+
+    .connect-07-profile-img{
+        width:126px;
+        height:126px;
+    }
+
+    .connect-07-profile-info h1{
+        font-size:28px;
+    }
+
+    .connect-07-profile-info h2{
+        font-size:14px;
+    }
+
+    .connect-07-profile-info p{
+        font-size:12px;
+    }
+
+    .connect-07-actions{
+        gap:9px;
+    }
+
+    .connect-07-actions a{
+        padding:13px 5px;
+        border-radius:19px;
+    }
+
+    .connect-07-actions i{
+        width:38px;
+        height:38px;
+        font-size:15px;
+    }
+
+    .connect-07-actions span{
+        font-size:10px;
+    }
+
+    .connect-07-about{
+        padding:18px;
+    }
+
+    .connect-07-links a{
+        padding:15px;
+    }
+
+    .connect-07-link-left i{
+        width:39px;
+        height:39px;
+        font-size:16px;
+    }
+
+    .connect-07-link-left strong{
+        font-size:14px;
+    }
+
+    .connect-07-link-left small{
+        font-size:11px;
+    }
+
+    .connect-07-footer{
+        padding:16px;
+    }
+
+    .connect-07-footer-logo img{
+        width:34px;
+    }
+
+    .connect-07-footer-logo span{
+        font-size:9px;
+    }
+
+    .connect-07-footer a{
+        font-size:10px;
+    }
+}
+
+
+
+
+
+
+
+
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
+
+@media(max-width:480px){
+
+    .connect-08-body{
+        padding:0;
+    }
+
+    .connect-08-page{
+        max-width:100%;
+        padding:24px 16px 38px;
+    }
+
+    .connect-08-logo img{
+        width:34px;
+    }
+
+    .connect-08-logo span{
+        font-size:14px;
+    }
+
+    .connect-08-save{
+        padding:10px 13px;
+        font-size:11px;
+    }
+
+    .connect-08-hero{
+        padding:32px 18px 28px;
+    }
+
+    .connect-08-top-pattern{
+        height:88px;
+    }
+
+    .connect-08-profile-img{
+        width:124px;
+        height:124px;
+        margin-top:32px;
+    }
+
+    .connect-08-hero h1{
+        font-size:28px;
+    }
+
+    .connect-08-hero h2{
+        font-size:14px;
+    }
+
+    .connect-08-hero p{
+        font-size:12px;
+    }
+
+    .connect-08-actions{
+        gap:9px;
+    }
+
+    .connect-08-actions a{
+        padding:13px 5px;
+        border-radius:19px;
+    }
+
+    .connect-08-actions i{
+        width:38px;
+        height:38px;
+        font-size:15px;
+    }
+
+    .connect-08-actions span{
+        font-size:10px;
+    }
+
+    .connect-08-about{
+        padding:18px;
+    }
+
+    .connect-08-info-strip{
+        gap:9px;
+    }
+
+    .connect-08-info-strip div{
+        padding:13px 8px;
+    }
+
+    .connect-08-info-strip span{
+        font-size:10px;
+    }
+
+    .connect-08-links a{
+        padding:15px;
+    }
+
+    .connect-08-links a i{
+        width:39px;
+        height:39px;
+        font-size:16px;
+    }
+
+    .connect-08-links strong{
+        font-size:14px;
+    }
+
+    .connect-08-links small{
+        font-size:11px;
+    }
+
+    .connect-08-open{
+        font-size:9px;
+        padding:6px 9px;
+    }
+}
+
+
+
+
+
+
+
+
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
+
+@media(max-width:480px){
+
+    .connect-09-body{
+        padding:0;
+    }
+
+    .connect-09-page{
+        max-width:100%;
+        padding:24px 16px 38px;
+    }
+
+    .connect-09-logo img{
+        width:34px;
+    }
+
+    .connect-09-logo span{
+        font-size:14px;
+    }
+
+    .connect-09-save{
+        padding:10px 13px;
+        font-size:11px;
+    }
+
+    .connect-09-hero{
+        padding:32px 18px 28px;
+    }
+
+    .connect-09-profile-img{
+        width:124px;
+        height:124px;
+    }
+
+    .connect-09-hero h1{
+        font-size:28px;
+    }
+
+    .connect-09-hero h2{
+        font-size:14px;
+    }
+
+    .connect-09-hero p{
+        font-size:12px;
+    }
+
+    .connect-09-actions{
+        gap:9px;
+    }
+
+    .connect-09-actions a{
+        padding:13px 5px;
+        border-radius:19px;
+    }
+
+    .connect-09-actions i{
+        width:38px;
+        height:38px;
+        font-size:15px;
+    }
+
+    .connect-09-actions span{
+        font-size:10px;
+    }
+
+    .connect-09-summary{
+        gap:9px;
+    }
+
+    .connect-09-summary div{
+        padding:13px 6px;
+    }
+
+    .connect-09-card{
+        padding:18px;
+    }
+
+    .connect-09-links a{
+        padding:15px;
+    }
+
+    .connect-09-link-left i{
+        width:39px;
+        height:39px;
+        font-size:16px;
+    }
+
+    .connect-09-link-left strong{
+        font-size:14px;
+    }
+
+    .connect-09-link-left small{
+        font-size:11px;
+    }
+
+    .connect-09-links a > span{
+        font-size:9px;
+        padding:6px 9px;
+    }
+
+    .connect-09-footer{
+        padding:16px;
+    }
+
+    .connect-09-footer p{
+        font-size:9px;
+    }
+
+    .connect-09-footer a{
+        font-size:10px;
+    }
+}
+
+
+
+
+
+
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
+
+@media(max-width:480px){
+
+    .connect-10-body{
+        padding:0;
+    }
+
+    .connect-10-page{
+        max-width:100%;
+        padding:24px 16px 38px;
+    }
+
+    .connect-10-logo img{
+        width:34px;
+    }
+
+    .connect-10-logo span{
+        font-size:14px;
+    }
+
+    .connect-10-save{
+        padding:10px 13px;
+        font-size:11px;
+    }
+
+    .connect-10-hero{
+        padding:22px 16px;
+    }
+
+    .connect-10-profile-top{
+        gap:13px;
+    }
+
+    .connect-10-profile-img{
+        width:96px;
+        height:96px;
+        border-radius:22px;
+    }
+
+    .connect-10-label{
+        font-size:9px;
+        padding:6px 9px;
+    }
+
+    .connect-10-profile-text h1{
+        font-size:22px;
+    }
+
+    .connect-10-profile-text h2{
+        font-size:13px;
+    }
+
+    .connect-10-profile-text p{
+        font-size:11px;
+    }
+
+    .connect-10-bio p{
+        font-size:12px;
+    }
+
+    .connect-10-actions{
+        gap:9px;
+    }
+
+    .connect-10-actions a{
+        padding:13px 5px;
+        border-radius:19px;
+    }
+
+    .connect-10-actions i{
+        width:38px;
+        height:38px;
+        font-size:15px;
+    }
+
+    .connect-10-actions span{
+        font-size:10px;
+    }
+
+    .connect-10-details{
+        gap:9px;
+    }
+
+    .connect-10-details div{
+        padding:14px 12px;
+    }
+
+    .connect-10-details strong{
+        font-size:12px;
+    }
+
+    .connect-10-card{
+        padding:18px;
+    }
+
+    .connect-10-links a{
+        padding:15px;
+    }
+
+    .connect-10-links a > i{
+        width:39px;
+        height:39px;
+        font-size:16px;
+    }
+
+    .connect-10-links strong{
+        font-size:14px;
+    }
+
+    .connect-10-links small{
+        font-size:11px;
+    }
+
+    .connect-10-links em{
+        font-size:9px;
+        padding:6px 9px;
+    }
+
+    .connect-10-footer{
+        padding:16px;
+    }
+
+    .connect-10-footer-brand img{
+        width:34px;
+    }
+
+    .connect-10-footer-brand span{
+        font-size:9px;
+    }
+
+    .connect-10-footer a{
+        font-size:10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========================
+   MOBILE RESPONSIVE  FOR MINIMAL 01
+=========================== */
+
+@media(max-width:480px){
+
+    .minimal-01-body{
+        padding:0;
+    }
+
+    .minimal-01-page{
+        max-width:100%;
+        padding:24px 16px 38px;
+    }
+
+    .minimal-01-header{
+        margin-bottom:30px;
+    }
+
+    .minimal-01-logo img{
+        width:34px;
+    }
+
+    .minimal-01-logo span{
+        font-size:14px;
+    }
+
+    .minimal-01-save{
+        padding:10px 13px;
+        font-size:11px;
+    }
+
+    .minimal-01-profile{
+        padding:28px 18px;
+    }
+
+    .minimal-01-img{
+        width:122px;
+        height:122px;
+    }
+
+    .minimal-01-profile h1{
+        font-size:28px;
+    }
+
+    .minimal-01-profile h2{
+        font-size:14px;
+    }
+
+    .minimal-01-profile p{
+        font-size:12px;
+    }
+
+    .minimal-01-actions{
+        gap:10px;
+    }
+
+    .minimal-01-actions a{
+        padding:14px 6px;
+        border-radius:19px;
+    }
+
+    .minimal-01-actions i{
+        width:38px;
+        height:38px;
+        font-size:15px;
+    }
+
+    .minimal-01-actions span{
+        font-size:11px;
+    }
+
+    .minimal-01-card,
+    .minimal-01-links-section{
+        padding:18px;
+    }
+
+    .minimal-01-details{
+        gap:9px;
+    }
+
+    .minimal-01-details div{
+        padding:13px 8px;
+    }
+
+    .minimal-01-details span{
+        font-size:10px;
+    }
+
+    .minimal-01-links a > i:first-child{
+        width:39px;
+        height:39px;
+        font-size:16px;
+    }
+
+    .minimal-01-links strong{
+        font-size:14px;
+    }
+
+    .minimal-01-links small{
+        font-size:11px;
+    }
+}
