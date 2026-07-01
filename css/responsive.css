@@ -292,6 +292,17 @@
 
 @media(max-width:480px){
 
+.connect-03-logo img{
+    width:100px;
+    height:auto;
+    object-fit:contain;
+}
+
+    .connect-03-img{
+        width:120px;
+        height:120px;
+    }
+
     .connect-03-body{
         padding:0;
     }
@@ -1118,4 +1129,13 @@
     .minimal-01-links small{
         font-size:11px;
     }
+}
+
+
+@media(max-width:480px){
+    .coming-logo img{
+    width:120px;
+    height:auto;
+    object-fit:contain;
+}
 }

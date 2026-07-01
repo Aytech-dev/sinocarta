@@ -1000,7 +1000,9 @@
 }
 
 .connect-03-logo img{
-    width:115px;
+    width:120px;
+    height:auto;
+    object-fit:contain;
 }
 
 .connect-03-logo span{
