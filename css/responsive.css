@@ -292,17 +292,6 @@
 
 @media(max-width:480px){
 
-.connect-03-logo img{
-    width:100px;
-    height:auto;
-    object-fit:contain;
-}
-
-    .connect-03-img{
-        width:120px;
-        height:120px;
-    }
-
     .connect-03-body{
         padding:0;
     }
@@ -310,6 +299,34 @@
     .connect-03-page{
         max-width:100%;
         padding:24px 16px 35px;
+    }
+
+    .connect-03-header{
+        max-width:100%;
+        margin:0 auto 28px;
+        padding:0;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+    }
+
+    .connect-03-logo{
+        width:115px;
+        overflow:visible;
+    }
+
+    .connect-03-logo img{
+        width:100%;
+        height:auto;
+        display:block;
+        object-fit:contain;
+        -webkit-transform:translateZ(0);
+    }
+
+    .connect-03-save{
+        padding:13px 22px;
+        font-size:15px;
+        border-radius:36px;
     }
 
     .connect-03-profile h1{
@@ -329,7 +346,6 @@
         font-size:11px;
     }
 }
-
 
 
 
@@ -1129,13 +1145,4 @@
     .minimal-01-links small{
         font-size:11px;
     }
-}
-
-
-@media(max-width:480px){
-    .coming-logo img{
-    width:120px;
-    height:auto;
-    object-fit:contain;
-}
 }

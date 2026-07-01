@@ -984,46 +984,49 @@
         #050816;
 }
 
-/* HEADER */
+/* =========================
+   CLASSIC CONNECT 03 HEADER
+========================= */
 
 .connect-03-header{
+    width:100%;
+    max-width:680px;
+    margin:0 auto 34px;
     display:flex;
-    justify-content:space-between;
     align-items:center;
-    margin-bottom:34px;
+    justify-content:space-between;
+    gap:20px;
 }
 
 .connect-03-logo{
+    width:135px;
+    height:auto;
     display:flex;
     align-items:center;
-    gap:9px;
+    justify-content:flex-start;
+    overflow:visible;
 }
 
 .connect-03-logo img{
-    width:120px;
+    width:100%;
     height:auto;
+    display:block;
     object-fit:contain;
 }
 
-.connect-03-logo span{
-    font-size:15px;
-    font-weight:700;
-    color:white;
-    letter-spacing:.5px;
-}
-
 .connect-03-save{
-    background:linear-gradient(135deg,#d4af37,#f5d76e);
+    padding:14px 24px;
+    border-radius:40px;
+    background:linear-gradient(135deg,#f5b932,#ffe08a);
     color:#111827;
-    text-decoration:none;
-    padding:10px 16px;
-    border-radius:30px;
-    font-size:13px;
+    font-size:16px;
     font-weight:700;
     display:flex;
     align-items:center;
-    gap:8px;
-    box-shadow:0 10px 25px rgba(212,175,55,.25);
+    justify-content:center;
+    gap:9px;
+    box-shadow:0 16px 35px rgba(245,185,50,.22);
+    white-space:nowrap;
 }
 
 /* PROFILE */
