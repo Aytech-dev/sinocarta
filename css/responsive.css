@@ -1146,3 +1146,12 @@
         font-size:11px;
     }
 }
+
+
+@media(max-width:480px){
+.coming-logo img{
+    width:140px;
+    height:auto;
+    object-fit:contain;
+}
+}
