@@ -392,3 +392,19 @@ a{
         width:100%;
     }
 }
+
+
+
+.hamartan-button{
+    background-color: #f5b932;
+    color: #020617;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hamartan-up{
+    margin-top: 20px;
+}
